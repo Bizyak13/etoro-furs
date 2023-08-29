@@ -103,9 +103,6 @@ def parse_input_file(rates) -> dict:
 
     max_col = dividends.max_column
     max_row = dividends.max_row
-    print(f'max_row: {max_row}')
-    print(f'max_col: {max_col}')
-    print('==============================================')
 
     for i in range(2, max_row+1):
         rate = 0
@@ -147,12 +144,17 @@ def parse_input_file(rates) -> dict:
                 data_row['Withholding Tax Amount (EUR)'] = get_rounded_float(dividends.cell(row=i, column=5).value/rate)
         
         data[i-1] = data_row
-    print(json.dumps(data))
     return data
 
 
-def create_output_file(data):
-    csv_output = open(args.output, 'w', encoding='utf-8')
+def create_output_file(data) -> str:
+    
+    if 'csv' not in args.output:
+        output = args.output + '.csv'
+    else:
+        output = args.output
+    
+    csv_output = open(output, 'w', encoding='utf-8')
     csv_writer = csv.writer(csv_output, lineterminator='\n', delimiter=';')
     csv_writer.writerow(csv_1st_line.split(';'))
     csv_writer.writerow(csv_2nd_line.replace('xxxxxxxx', get_config_taxid()).split(';'))
@@ -165,6 +167,8 @@ def create_output_file(data):
         csv_writer.writerow([line['Date of Payment FURS'], '', line['Company TAX ID'], line['Company Name'], line['Company Address'], line['Company Country'], dividend_type, line['Net Dividend Received (EUR)'], line['Withholding Tax Amount (EUR)'], line['Company Country'], ''])
     csv_output.close()
 
+    return output
+
 
 if __name__ == '__main__':
     print('etoro-furs: Running etoro-furs')
@@ -173,5 +177,8 @@ if __name__ == '__main__':
     rates = get_conversion_rate_file()
     print('etoro-furs: Rates loaded')
     
+    print('etoro-furs: Parsing input file')
     data = parse_input_file(rates)
-    create_output_file(data)
+    print('etoro-furs: Generating csv file')
+    file = create_output_file(data)
+    print(f'etoro-furs: DONE! -> {file}')
