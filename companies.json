@@ -1,0 +1,2163 @@
+{
+    "companies": [
+        {
+            "conid": 13013300,
+            "symbol": "APC",
+            "name": "Apple Inc",
+            "taxNumber": 942404110,
+            "address": "1 Infinite Loop, Cupertino, CA 95014",
+            "country": "US"
+        },
+        {
+            "conid": 265598,
+            "symbol": "AAPL",
+            "name": "Apple Inc",
+            "taxNumber": 942404110,
+            "address": "1 Infinite Loop, Cupertino, CA 95014",
+            "country": "US"
+        },
+        {
+            "conid": 52424577,
+            "symbol": "ATVI",
+            "name": "Activision Blizzard Inc",
+            "taxNumber": 954803544,
+            "address": "3100 Ocean Park Blvd, Santa Monica, CA 90405",
+            "country": "US"
+        },
+        {
+            "conid": 10098,
+            "symbol": "BAC",
+            "name": "Bank of America Corporation",
+            "taxNumber": 941687665,
+            "address": "100 N. Tryon St, Charlotte, NC 28255",
+            "country": "US"
+        },
+        {
+            "symbol": "CSCO",
+            "name": "Cisco Systems Inc",
+            "taxNumber": 770059951,
+            "address": "170 West Tasman Drive, San Jose, CA 95134",
+            "country": "US"
+        },
+        {
+            "conid": 45127739,
+            "symbol": "CME",
+            "name": "CME Group Inc",
+            "taxNumber": 364459170,
+            "address": "20 S Wacker Dr, Chicago, IL 60606-7431",
+            "country": "US"
+        },
+        {
+            "symbol": "DIS",
+            "name": "The Walt Disney Company",
+            "taxNumber": 830940635,
+            "address": "500 South Buena Vista Street, Burbank, California",
+            "country": "US"
+        },
+        {
+            "symbol": "EURN",
+            "name": "Euronav NV",
+            "taxNumber": 546943111,
+            "address": "De Gerlachekaai 20, 2000 Antwerpen, Belgija",
+            "country": "BE"
+        },
+        {
+            "conid": 9599491,
+            "symbol": "F",
+            "name": "Ford Motor Company",
+            "taxNumber": 380549190,
+            "address": "One American Road, Dearborn, MI 48126",
+            "country": "US"
+        },
+        {
+            "conid": 611060,
+            "symbol": "GOLD",
+            "name": "Barrick Gold Corporation",
+            "taxNumber": 980161470,
+            "address": "161 Bay Street, Toronto, Ontario M5J 2S1",
+            "country": "CA"
+        },
+        {
+            "conid": 270639,
+            "symbol": "INTC",
+            "name": "Intel Corp",
+            "taxNumber": 941672743,
+            "address": "2200 Mission College Blvd, Santa Clara, CA 95054",
+            "country": "US"
+        },
+        {
+            "conid": 12973838,
+            "symbol": "JNJ",
+            "name": "Johnson &amp; Johnson",
+            "taxNumber": 221024240,
+            "address": "One Johnson &amp; Johnson Plz, New Brunswick, NJ 08933",
+            "country": "US"
+        },
+        {
+            "conid": 271308,
+            "symbol": "LRCX",
+            "name": "Lam Research Corp",
+            "taxNumber": 942634797,
+            "address": "4650 Cushing Parkway, Fremont, CA 94538",
+            "country": "US"
+        },
+        {
+            "conid": 9408,
+            "symbol": "MCD",
+            "name": "Mcdonald's Corp",
+            "taxNumber": 362361282,
+            "address": "110 North Carpenter Street, Chicago, IL 60607",
+            "country": "US"
+        },
+        {
+            "conid": 9720,
+            "symbol": "MMM",
+            "name": "3M Company",
+            "taxNumber": 43205742,
+            "address": "3m Center 224-2w-15, St. Paul, MN 55144-1000",
+            "country": "US"
+        },
+        {
+            "conid": 12178239,
+            "symbol": "MSF",
+            "name": "Microsoft Corp",
+            "taxNumber": 911144442,
+            "address": "One Microsoft Way, Redmond, WA 98052-6399",
+            "country": "US"
+        },
+        {
+            "conid": 272093,
+            "symbol": "MSFT",
+            "name": "Microsoft Corp",
+            "taxNumber": 911144442,
+            "address": "One Microsoft Way, Redmond, WA 98052-6399",
+            "country": "US"
+        },
+        {
+            "conid": 2586162,
+            "symbol": "MTN",
+            "name": "Vail Resorts Inc",
+            "taxNumber": 510291762,
+            "address": "390 Interlocken Crescent, Broomfield, CO 80021",
+            "country": "US"
+        },
+        {
+            "conid": 9939,
+            "symbol": "MU",
+            "name": "Micron Technology Inc",
+            "taxNumber": 751618004,
+            "address": "8000 South Federal Way, Boise, ID 83716-9632",
+            "country": "US"
+        },
+        {
+            "symbol": "NTAP",
+            "name": "NetApp, Inc.",
+            "taxNumber": 770307520,
+            "address": "1395 Crossman Ave, Sunnyvale, CA 94089",
+            "country": "US"
+        },
+        {
+            "conid": 55279376,
+            "symbol": "NTES",
+            "name": "NetEase Inc",
+            "taxNumber": "64110W102",
+            "address": "Zhongguancun Software Park (Phase II), No. 10 Xibeiwang East Road, Haidian District, Beijing, 100193",
+            "country": "CN"
+        },
+        {
+            "conid": 755883,
+            "symbol": "NYT",
+            "name": "The New York Times Company",
+            "taxNumber": 131102020,
+            "address": "620 Eighth Avenue, New York, NY 10018",
+            "country": "US"
+        },
+        {
+            "conid": 2852762,
+            "symbol": "RIO",
+            "name": "Rio Tinto Plc",
+            "taxNumber": 719885,
+            "address": "6 St James's Square, London SW1Y 4AD",
+            "country": "GB"
+        },
+        {
+            "conid": 360308912,
+            "symbol": "SBER",
+            "name": "Sberbank of Russia PJSC",
+            "taxNumber": 7707083893,
+            "address": "19 Vavilova Street, Moscow 117997",
+            "country": "RU"
+        },
+        {
+            "conid": 284632520,
+            "symbol": "SSRM",
+            "name": "SSR Mining Inc",
+            "taxNumber": 980211014,
+            "address": "1055 Dunsmuir Street, Vancouver, BC V7X 1G4",
+            "country": "CA"
+        },
+        {
+            "conid": 55279376,
+            "symbol": "TCEHY",
+            "name": "Tencent Holdings Ltd",
+            "taxNumber": "88032Q10",
+            "address": "Kejizhongyi Avenue, Hi-tech Park, Nanshan District, Shenzhen, 518057",
+            "country": "CN"
+        },
+        {
+            "conid": 13024,
+            "symbol": "TTC",
+            "name": "Toro Co",
+            "taxNumber": 410580470,
+            "address": "8111 Lyndale Avenue South, Bloomington, MN 55420-1196",
+            "country": "US"
+        },
+        {
+            "conid": 1447060,
+            "symbol": "CCJ",
+            "name": "Cameco Corp",
+            "taxNumber": 980113090,
+            "address": "2121 11th St W, Saskatoon, S7M 1J3",
+            "country": "CA"
+        },
+        {
+            "conid": 6437,
+            "symbol": "TGT",
+            "name": "Target Corp",
+            "taxNumber": 410215170,
+            "address": "1000 Nicollet Mall, Minneapolis, Minnesota, 55403",
+            "country": "US"
+        },
+        {
+            "conid": 358053635,
+            "symbol": "LEVI",
+            "name": "Levi Strauss &amp; Co",
+            "taxNumber": 940905160,
+            "address": "1155 Battery St, San Francisco CA 94111",
+            "country": "US"
+        },
+        {
+            "conid": 257775837,
+            "symbol": "KL",
+            "name": "Kirkland Lake Gold Ltd",
+            "taxNumber": 0,
+            "address": "200 Bay Street, Suite 3120, Toronto ON M5J 2J1, Canada",
+            "country": "CA"
+        },
+        {
+            "conid": 120420959,
+            "symbol": "USAC",
+            "name": "Usa Compression Partners Lp",
+            "taxNumber": 752771546,
+            "address": "111 Congress Avenue, Suite 2400, Austin TX 78701",
+            "country": "US"
+        },
+        {
+            "conid": 10174,
+            "symbol": "NEM",
+            "name": "Newmont Corp",
+            "taxNumber": 841611629,
+            "address": "6363 South Fiddlers Green Circle, Greenwood Village, CO 80111",
+            "country": "US"
+        },
+        {
+            "conid": 110322264,
+            "symbol": "DHT",
+            "name": "DHT Holdings Inc",
+            "taxNumber": 980497420,
+            "address": "Clarendon House, 2 Church Street, Hamilton HM 11",
+            "country": "BM"
+        },
+        {
+            "conid": 6604153,
+            "symbol": "NAT",
+            "name": "NORDIC AMERICAN TANKERS LTD",
+            "taxNumber": 980500048,
+            "address": "LOM Building, 27 Reid Street, Hamilton, HM 11",
+            "country": "BM"
+        },
+        {
+            "conid": 6180,
+            "symbol": "LUMN",
+            "name": "CenturyLink Inc",
+            "taxNumber": 720651161,
+            "address": "100 Centurylink Dr, Monroe LA",
+            "country": "US"
+        },
+        {
+            "symbol": "O",
+            "name": "Realty Income",
+            "taxNumber": 330580106,
+            "address": "11995 El Camino Real San Diego, CA",
+            "country": "US"
+        },
+        {
+            "symbol": "PBA",
+            "name": "Pembina Pipeline Corp",
+            "taxNumber": 980131760,
+            "address": "4000, 585 - 8th Avenue S.W. Calgary, Alberta T2P 1G1",
+            "country": "CA"
+        },
+        {
+            "symbol": "RDS A",
+            "name": "Royal Dutch Shell",
+            "taxNumber": 522074528,
+            "address": "Carel van Bylandtlaan 16, 2596 HR The Hague",
+            "country": "NL"
+        },
+        {
+            "conid": 120643511,
+            "symbol": "CONE",
+            "name": "CyrusOne Inc",
+            "taxNumber": 274286158,
+            "address": "2101 Cedar Springs Road, Suite 900, Dallas, TX 75201",
+            "country": "US"
+        },
+        {
+            "symbol": "DLR",
+            "name": "Digital Realty Trust, Inc.",
+            "taxNumber": 260081711,
+            "address": "Four Embarcadero Center, Suite 3200, San Francisco, CA 94111",
+            "country": "US"
+        },
+        {
+            "symbol": "ESS",
+            "name": "Essex Property Trust, Inc.",
+            "taxNumber": 770369576,
+            "address": "1100 Park Place, Suite 200, San Mateo, CA 94403",
+            "country": "US"
+        },
+        {
+            "symbol": "FRT",
+            "name": "Federal Realty Investment Trust",
+            "taxNumber": 520782497,
+            "address": "1626 East Jefferson Street, Rockville, MD 20852-4041",
+            "country": "US"
+        },
+        {
+            "symbol": "FRT.OLD",
+            "name": "Federal Realty Investment Trust",
+            "taxNumber": 520782497,
+            "address": "1626 East Jefferson Street, Rockville, MD 20852-4041",
+            "country": "US"
+        },
+        {
+            "symbol": "SLG",
+            "name": "Sl Green Realty Corp",
+            "taxNumber": 133956775,
+            "address": "420 Lexington Avenue, New York, NY 10170",
+            "country": "US"
+        },
+        {
+            "symbol": "SRC",
+            "name": "Spirit Realty Capital, Inc.",
+            "taxNumber": 201676382,
+            "address": "2727 North Harwood Street, Suite 300, Dallas, TX 75201",
+            "country": "US"
+        },
+        {
+            "symbol": "STOR",
+            "name": "Store Capital Corp",
+            "taxNumber": 452280254,
+            "address": "8377 East Hartford Drive, Suite 100, Scottsdale, AZ 85255",
+            "country": "US"
+        },
+        {
+            "symbol": "WPC",
+            "name": "W. P. Carey Inc.",
+            "taxNumber": 133912578,
+            "address": "50 Rockefeller Plaza, New York, NY 10020",
+            "country": "US"
+        },
+        {
+            "symbol": "IRT",
+            "name": "Independence Realty Trust, Inc.",
+            "taxNumber": 264567130,
+            "address": "1835 Market Street, Suite 2601, Philadelphia, PA 19103",
+            "country": "US"
+        },
+        {
+            "symbol": "CM",
+            "name": "Canadian Imperial Bank Of Commerce",
+            "taxNumber": 131942440,
+            "address": "425 Lexington Avenue, 425 Lexington Avenue, New York, NY 10017",
+            "country": "US"
+        },
+        {
+            "symbol": "BNS",
+            "name": "Bank Of Nova Scotia",
+            "taxNumber": 134941099,
+            "address": "44 King Street West, Scotia Plaza 8th Fl., Toronto, A6 M5H 1H1",
+            "country": "CA"
+        },
+        {
+            "symbol": "JPM",
+            "name": "Jpmorgan Chase &amp; Co",
+            "taxNumber": 132624428,
+            "address": "383 Madison Avenue, New York, NY 10017",
+            "country": "US"
+        },
+        {
+            "symbol": "TD",
+            "name": "Toronto Dominion Bank",
+            "taxNumber": 135640479,
+            "address": "66 Wellington Street West, 12th Floor, Td Tower, Toronto, Ontario, A6 M5K 1A2",
+            "country": "CA"
+        },
+        {
+            "symbol": "CPB",
+            "name": "Campbell Soup Co",
+            "taxNumber": 210419870,
+            "address": "Campbell Pl, Camden, NJ 08103",
+            "country": "US"
+        },
+        {
+            "conid": 199169586,
+            "symbol": "KHC",
+            "name": "Kraft Heinz Co",
+            "taxNumber": 462078182,
+            "address": "One Ppg Place, Pittsburgh, Pennsylvania 15222",
+            "country": "US"
+        },
+        {
+            "conid": 4901,
+            "symbol": "VZ",
+            "name": "Verizon Communications Inc",
+            "taxNumber": 232259884,
+            "address": "1095 Avenue Of The Americas, New York, NY 10036",
+            "country": "US"
+        },
+        {
+            "conid": 10245,
+            "symbol": "NHI",
+            "name": "National Health Investors Inc",
+            "taxNumber": 621470956,
+            "address": "222 Robert Rose Drive, Murfreesboro, TN 37129",
+            "country": "US"
+        },
+        {
+            "conid": 6607910,
+            "symbol": "EPD",
+            "name": "Enterprise Products Partners L.p.",
+            "taxNumber": 760568219,
+            "address": "1100 Louisiana 10th Floor, Houston, TX 77002",
+            "country": "US"
+        },
+        {
+            "symbol": "ABBV",
+            "name": "Abbvie Inc.",
+            "taxNumber": 320375147,
+            "address": "1 North Waukegan Road, North Chicago, IL 60064",
+            "country": "US"
+        },
+        {
+            "symbol": "NNN",
+            "name": "National Retail Properties, Inc.",
+            "taxNumber": 561431377,
+            "address": "450 S Orange Ave, Suite 900, Orlando, FL 32801",
+            "country": "US"
+        },
+        {
+            "symbol": "KMI",
+            "name": "Kinder Morgan, Inc.",
+            "taxNumber": 260238387,
+            "address": "1001 Louisiana Street, Suite 1000, Houston, TX 77002",
+            "country": "US"
+        },
+        {
+            "symbol": "PG",
+            "name": "Procter &amp; Gamble Co",
+            "taxNumber": 310411980,
+            "address": "One Procter &amp; Gamble Plaza, Cincinnati, OH 45202",
+            "country": "US"
+        },
+        {
+            "symbol": "UNM",
+            "name": "Unum Group",
+            "taxNumber": 621598430,
+            "address": "1 Fountain Square, Chattanooga, TN 37402",
+            "country": "US"
+        },
+        {
+            "symbol": "BMO",
+            "name": "Bank Of Montreal Europe Plc",
+            "taxNumber": 980392985,
+            "address": "2 Harbourmaster Place, Ifsc, Dublin 1, L2 D01 X5P3",
+            "country": "IE"
+        },
+        {
+            "symbol": "ENB",
+            "name": "Enbridge Energy Partners Lp",
+            "taxNumber": 391715850,
+            "address": "5400 Westheimer Court, Houston, TX 77056",
+            "country": "US"
+        },
+        {
+            "symbol": "PFE",
+            "name": "Pfizer Inc",
+            "taxNumber": 135315170,
+            "address": "235 E 42nd St, New York, NY 10017",
+            "country": "US"
+        },
+        {
+            "symbol": "MAC",
+            "name": "Macerich Co",
+            "taxNumber": 954448705,
+            "address": "401 Wilshire Blvd, Ste 700, Santa Monica, CA 90401",
+            "country": "US"
+        },
+        {
+            "symbol": "CVX",
+            "name": "Chevron Corp",
+            "taxNumber": 940890210,
+            "address": "6001 Bollinger Canyon Road, San Ramon, CA 94583",
+            "country": "US"
+        },
+        {
+            "symbol": "RTX",
+            "name": "Raytheon Co",
+            "taxNumber": 951778500,
+            "address": "870 Winter Street, Waltham, MA 02451-1449",
+            "country": "US"
+        },
+        {
+            "symbol": "XOM",
+            "name": "Exxon Mobil Corp",
+            "taxNumber": 135409005,
+            "address": "5959 Las Colinas Blvd, Irving, TX 75039-2298",
+            "country": "US"
+        },
+        {
+            "symbol": "ED",
+            "name": "Consolidated Edison Inc",
+            "taxNumber": 133965100,
+            "address": "4 Irving Place, New York, NY 10003",
+            "country": "US"
+        },
+        {
+            "symbol": "LMT",
+            "name": "Lockheed Martin Corp",
+            "taxNumber": 521893632,
+            "address": "6801 Rockledge Dr, Bethesda, MD 20817",
+            "country": "US"
+        },
+        {
+            "symbol": "GILD",
+            "name": "Gilead Sciences Inc",
+            "taxNumber": "94-3047598",
+            "address": "333 Lakeside Dr, Foster City, CA 94404",
+            "country": "US"
+        },
+        {
+            "symbol": "CCI",
+            "name": "Crown Castle International Corp",
+            "taxNumber": 760470458,
+            "address": "1220 Augusta Drive, Suite 600, Houston, TX 77057",
+            "country": "US"
+        },
+        {
+            "symbol": "PEP",
+            "name": "Pepsico Inc",
+            "taxNumber": 131584302,
+            "address": "700 Anderson Hill Rd, Purchase, NY 10577",
+            "country": "US"
+        },
+        {
+            "symbol": "RPT PRD",
+            "name": "Rpt Realty",
+            "taxNumber": 136908486,
+            "address": "19 W 44th Street, Suite 1002, New York, NY 10036",
+            "country": "US"
+        },
+        {
+            "symbol": "STX",
+            "name": "Seagate Technology Plc",
+            "taxNumber": 980648577,
+            "address": "38/39 Fitzwilliam Square, Dublin 2, L2",
+            "country": "IE"
+        },
+        {
+            "symbol": "MPW",
+            "name": "Medical Properties Trust, Llc",
+            "taxNumber": 341985135,
+            "address": "1000 Urban Center Drive, Suite 501, Birmingham, AL 35242",
+            "country": "US"
+        },
+        {
+            "symbol": "AVB",
+            "name": "Avalonbay Communities Inc",
+            "taxNumber": 770404318,
+            "address": "671 N. Glebe Road, Suite 800, Arlington, VA 22203",
+            "country": "US"
+        },
+        {
+            "symbol": "SRE",
+            "name": "Sempra Energy",
+            "taxNumber": 330732627,
+            "address": "488 8th Avenue, P O Box 129400, San Diego, CA 92101",
+            "country": "US"
+        },
+        {
+            "symbol": "T",
+            "name": "At&amp;t Inc.",
+            "taxNumber": 431301883,
+            "address": "208 S. Akard St, Attn : James Lacy, Dallas, TX 75202",
+            "country": "US"
+        },
+        {
+            "symbol": "ACN",
+            "name": "Accenture Plc",
+            "taxNumber": 980627530,
+            "address": "1 Grand Canal Square, Grand Canal Harbour, Dublin L2, D2",
+            "country": "IE"
+        },
+        {
+            "symbol": "GD",
+            "name": "General Dynamics Corp",
+            "taxNumber": 131673581,
+            "address": "11011 Sunset Hills Rd, Reston, VA 20190",
+            "country": "US"
+        },
+        {
+            "symbol": "OKE",
+            "name": "Oneok Inc",
+            "taxNumber": 731520922,
+            "address": "100 West 5th St, Tulsa, OK 74103",
+            "country": "US"
+        },
+        {
+            "symbol": "BTI",
+            "name": "British American Tobacco p.l.c.",
+            "taxNumber": 239136950,
+            "address": "REGENTS PARK ROAD, MILLBROOK, SOUTHAMPTON, SO15 8TL",
+            "country": "GB"
+        },
+        {
+            "symbol": "AWR",
+            "name": "American States Water Co",
+            "taxNumber": 954676679,
+            "address": "630 E Foothill Blvd, San Dimas, CA 91773-9016",
+            "country": "US"
+        },
+        {
+            "symbol": "SO",
+            "name": "Southern Co",
+            "taxNumber": 580690070,
+            "address": "30 Ivan Allen Jr. Blvd., N.w., Atlanta, GA 30308",
+            "country": "US"
+        },
+        {
+            "symbol": "VLO",
+            "name": "Valero Energy Corp",
+            "taxNumber": 741244795,
+            "address": "530 Mccullough Ave, San Antonio, TX 78215",
+            "country": "US"
+        },
+        {
+            "symbol": "IBM",
+            "name": "International Business Machines Corp",
+            "taxNumber": 130871985,
+            "address": "1 New Orchard Road, Armonk, NY 10504",
+            "country": "US"
+        },
+        {
+            "symbol": "SWKS",
+            "name": "Skyworks Solutions, Inc.",
+            "taxNumber": 42302115,
+            "address": "20 Sylvan Road, Woburn, MA 01801",
+            "country": "US"
+        },
+        {
+            "symbol": "NEE",
+            "name": "Nextera Energy Inc",
+            "taxNumber": 592449419,
+            "address": "700 Universe Blvd, Juno Beach, FL 33408",
+            "country": "US"
+        },
+        {
+            "symbol": "HD",
+            "name": "Home Depot, Inc.",
+            "taxNumber": 953261426,
+            "address": "2455 Paces Ferry Road, Atlanta, GA 30339-4024",
+            "country": "US"
+        },
+        {
+            "symbol": "AVGO",
+            "name": "Broadcom Inc.",
+            "taxNumber": 352617337,
+            "address": "1320 Ridder Park Drive, San Jose, CA 95131",
+            "country": "US"
+        },
+        {
+            "symbol": "HPE",
+            "name": "Hewlett Packard Enterprise Co",
+            "taxNumber": 473298624,
+            "address": "6280 America Center Drive, San Jose, CA 95002",
+            "country": "US"
+        },
+        {
+            "symbol": "ORCL",
+            "name": "Oracle Corp",
+            "taxNumber": 542185193,
+            "address": "500 Oracle Parkway, Mail Stop 5 Op 7, Redwood City, CA 94065",
+            "country": "US"
+        },
+        {
+            "symbol": "ET",
+            "name": "Energy Transfer Lp",
+            "taxNumber": 300108820,
+            "address": "8111 Westchester Drive, Suite 600, Dallas, TX 75225",
+            "country": "US"
+        },
+        {
+            "symbol": "APA",
+            "name": "Apache Corp",
+            "taxNumber": 410747868,
+            "address": "2000 Post Oak Blvd, Ste 100, Houston, TX 77056-4400",
+            "country": "US"
+        },
+        {
+            "symbol": "WRK",
+            "name": "Westrock Co",
+            "taxNumber": 371880617,
+            "address": "1000 Abernathy Road Ne, Atlanta, GA 30328",
+            "country": "US"
+        },
+        {
+            "symbol": "WELL",
+            "name": "Welltower Inc.",
+            "taxNumber": 341096634,
+            "address": "4500 Dorr Street, Toledo, OH 43615",
+            "country": "US"
+        },
+        {
+            "symbol": "WFC",
+            "name": "Wells Fargo &amp; Company",
+            "taxNumber": 410449260,
+            "address": "420 Montgomery Street, San Francisco, CA 94163",
+            "country": "US"
+        },
+        {
+            "symbol": "IVZ",
+            "name": "Invesco Ltd.",
+            "taxNumber": 980557567,
+            "address": "1555 Peachtree Street Ne, Suite 1800, Atlanta, GA 30309",
+            "country": "US"
+        },
+        {
+            "symbol": "ADM",
+            "name": "Archer-daniels-midland Co",
+            "taxNumber": 410129150,
+            "address": "77 W. Wacker Dr., Chicago, IL 60601",
+            "country": "US"
+        },
+        {
+            "symbol": "MPC",
+            "name": "Marathon Petroleum Corp",
+            "taxNumber": 271284632,
+            "address": "539 South Main Street, Findlay, OH 45840-3229",
+            "country": "US"
+        },
+        {
+            "symbol": "AIG",
+            "name": "American International Group Inc",
+            "taxNumber": 132592361,
+            "address": "175 Water Street, New York, NY 10038",
+            "country": "US"
+        },
+        {
+            "symbol": "OMC",
+            "name": "Omnicom Group Inc.",
+            "taxNumber": 131514814,
+            "address": "437 Madison Ave, New York, NY 10022",
+            "country": "US"
+        },
+        {
+            "symbol": "TSM",
+            "name": "Taiwan Semiconductor Manufacturing Company Limited",
+            "taxNumber": "-",
+            "address": "Hsinchu Science Park No. 8, Li-Hsin Road 6 Hsinchu 300-78",
+            "country": "TW"
+        },
+        {
+            "symbol": "SPG",
+            "name": "Simon Property Group Inc",
+            "taxNumber": 46268599,
+            "address": "225 West Washington Street, Indianapolis, IN 46204-3438",
+            "country": "US"
+        },
+        {
+            "symbol": "NYMT",
+            "name": "New York Mortgage Trust Inc",
+            "taxNumber": 470934168,
+            "address": "90 Park Avenue, New York, NY 10016",
+            "country": "US"
+        },
+        {
+            "symbol": "CIM",
+            "name": "Chimera Investment Corp",
+            "taxNumber": 260630461,
+            "address": "520 Madison Avenue, 32nd Floor, New York, NY 10022",
+            "country": "US"
+        },
+        {
+            "symbol": "FL",
+            "name": "Foot Locker, Inc.",
+            "taxNumber": 133513936,
+            "address": "Foot Locker, Inc., 330 West 34th Street, New York, NY 10001",
+            "country": "US"
+        },
+        {
+            "conid": 128884495,
+            "symbol": "VUSA",
+            "name": "Vanguard S&amp;P 500 UCITS ETF",
+            "taxNumber": "00B3XXRP09",
+            "address": "70 Sir John Rogerson's Quay Dublin 2 Ireland",
+            "country": "IE"
+        },
+        {
+            "symbol": "VWRD",
+            "name": "Vanguard FTSE All-World UCITS ETF",
+            "taxNumber": "00B3RBWM25",
+            "address": "70 Sir John Rogerson's Quay Dublin 2 Ireland",
+            "country": "IE"
+        },
+        {
+            "symbol": "VXUS",
+            "name": "Vanguard Total International Stock ETF",
+            "taxNumber": 9219097683,
+            "address": "P.O. Box 1110, Valley Forge, 19482-1110",
+            "country": "US"
+        },
+        {
+            "symbol": "VTI",
+            "name": "Vanguard Total Stock Market ETF",
+            "taxNumber": 9229087690,
+            "address": "P.O. Box 1110, Valley Forge, 19482-1110",
+            "country": "US"
+        },
+        {
+            "symbol": "VEU",
+            "name": "Vanguard FTSE All-World ex-US ETF",
+            "taxNumber": 9220427754,
+            "address": "P.O. Box 1110, Valley Forge, 19482-1110",
+            "country": "US"
+        },
+        {
+            "symbol": "BND",
+            "name": "Vanguard Total Bond Market ETF",
+            "taxNumber": 9219378356,
+            "address": "P.O. Box 1110, Valley Forge, 19482-1110",
+            "country": "US"
+        },
+        {
+            "symbol": "BNDX",
+            "name": "Vanguard Total International Bond ETF",
+            "taxNumber": "92203J4076",
+            "address": "P.O. Box 1110, Valley Forge, 19482-1110",
+            "country": "US"
+        },
+        {
+            "symbol": "MRK",
+            "name": "Merck &amp; Co., Inc.",
+            "taxNumber": 221918501,
+            "address": "2000 GALLOPING HILL ROAD K5 3155M, KENILWORTH, NJ, 070331310",
+            "country": "US"
+        },
+        {
+            "symbol": "MO",
+            "name": "Altria Group Inc",
+            "taxNumber": 133260245,
+            "address": "6601 West Broad Street, Richmond, VA 23230",
+            "country": "US"
+        },
+        {
+            "symbol": "UBA",
+            "name": "Urstadt Biddle Properties Inc",
+            "taxNumber": 42458042,
+            "address": "321 Railroad Avenue, Greenwich, CT 06830",
+            "country": "US"
+        },
+        {
+            "symbol": "BGS",
+            "name": "B&amp;G Foods, Inc.",
+            "taxNumber": 133918742,
+            "address": "Four Gatehall Drive Suite 110 Parsippany, NJ 07054",
+            "country": "US"
+        },
+        {
+            "symbol": "AMT",
+            "name": "American Tower Corp",
+            "taxNumber": 650723837,
+            "address": "116 Huntington Ave, Boston, MA 02116",
+            "country": "US"
+        },
+        {
+            "symbol": "CLX",
+            "name": "Clorox Co",
+            "taxNumber": 310595760,
+            "address": "1221 Broadway Oakland, CA 94612-1888",
+            "country": "US"
+        },
+        {
+            "symbol": "SWX",
+            "name": "Southwest Gas Holdings Inc",
+            "taxNumber": 813881866,
+            "address": "C/o Southwest Gas Corporation, 5241 Spring Mountain Road, Las Vegas, NV 89150-0002",
+            "country": "US"
+        },
+        {
+            "symbol": "AMGN",
+            "name": "Amgen, Inc.",
+            "taxNumber": 953540776,
+            "address": "One Amgen Center Drive, Thousand Oaks, CA 91320",
+            "country": "US"
+        },
+        {
+            "symbol": "QCOM",
+            "name": "QUALCOMM, Inc.",
+            "taxNumber": 453157787,
+            "address": "5775 Morehouse Drive, San Diego, CA 92121",
+            "country": "US"
+        },
+        {
+            "symbol": "SWCH",
+            "name": "Switch Inc",
+            "taxNumber": 821883953,
+            "address": "7135 South Decatur Boulevard, Las Vegas, NV 89118",
+            "country": "US"
+        },
+        {
+            "symbol": "UGI",
+            "name": "UGI Corporation",
+            "taxNumber": 232668356,
+            "address": "460 N Gulph Rd, P O Box 858, King Of Prussia, PA 19406",
+            "country": "US"
+        },
+        {
+            "symbol": "KMB",
+            "name": "Kimberly Clark Corp",
+            "taxNumber": 390394230,
+            "address": "351 Phelps Drive, Irving, TX 75038",
+            "country": "US"
+        },
+        {
+            "symbol": "BMY",
+            "name": "Bristol-Myers Squibb Co",
+            "taxNumber": 220790350,
+            "address": "430 E. 29th Street, 14 Floor, New York, NY 10016",
+            "country": "US"
+        },
+        {
+            "symbol": "OHI",
+            "name": "Omega Healthcare Investors Inc",
+            "taxNumber": 383041398,
+            "address": "303 International Circle,, Suite 200, Hunt Valley, MD 21030",
+            "country": "US"
+        },
+        {
+            "symbol": "VTRS",
+            "name": "Viatris Inc",
+            "taxNumber": 83436429,
+            "address": "1000 Mylan Blvd Canonsburg, PA 15317",
+            "country": "US"
+        },
+        {
+            "symbol": "TOT",
+            "name": "Total SE",
+            "taxNumber": 9542051180,
+            "address": "Tour Coupole - 2, place Jean Millier - 92078 Paris La Défense Cedex – France",
+            "country": "FR"
+        },
+        {
+            "symbol": "TTE",
+            "name": "TotalEnergies SE",
+            "taxNumber": 9542051180,
+            "address": "Tour Coupole - 2, place Jean Millier - 92078 Paris La Défense Cedex – France",
+            "country": "FR"
+        },
+        {
+            "symbol": "CI",
+            "name": "Cigna Corp",
+            "taxNumber": 824991898,
+            "address": "900 Cottage Grove Road, Bloomfield, CT 06002",
+            "country": "US"
+        },
+        {
+            "symbol": "AQN",
+            "name": "Algonquin Power &amp; Utilities Corp",
+            "taxNumber": 980406902,
+            "address": "2845 Bristol Circle, Oakville, A6 L6H 7H7",
+            "country": "CA"
+        },
+        {
+            "symbol": "HRL",
+            "name": "Hormel Foods Corp",
+            "taxNumber": 132599675,
+            "address": "1 Hormel Place, Austin, MN 55912",
+            "country": "US"
+        },
+        {
+            "symbol": "PNW",
+            "name": "Pinnacle West Capital Corporation",
+            "taxNumber": 860512431,
+            "address": "400 North Fifth Street, Ms8695, Phoenix, AZ 85004",
+            "country": "US"
+        },
+        {
+            "conid": "NVDA",
+            "symbol": "NVDA",
+            "name": "NVIDIA",
+            "taxNumber": 943177549,
+            "address": "2788 San Tomas Expy, Santa Clara, CA 95051, United States",
+            "country": "US"
+        },
+        {
+            "conid": "INTU",
+            "symbol": "INTU",
+            "name": "INTUIT",
+            "taxNumber": 770034661,
+            "address": "2700 Coast Avenue Mountain View, CA 94043 USA",
+            "country": "US"
+        },
+        {
+            "conid": "MA",
+            "symbol": "MA",
+            "name": "MASTERCARD",
+            "taxNumber": 134172551,
+            "address": "2000 Purchase Street, Purchase, NY 10577",
+            "country": "US"
+        },
+        {
+            "conid": "INRG",
+            "symbol": "INRG",
+            "name": "ISHARES GLOBAL CLEAN ENERGY",
+            "taxNumber": 8227552,
+            "address": "BlackRock Asset Management Ireland - ETF 1st Floor 2 Ballsbridge Park Dublin 4 Dublin D04 YW83 Ireland",
+            "country": "IE"
+        },
+        {
+            "conid": 385549212,
+            "symbol": "IGLE",
+            "name": "BlackRock Asset Management Ireland Limited (ISHARES GLOBAL GOV BND-EURHD)",
+            "taxNumber": 227552,
+            "address": "1st floor, 2 Ballsbridge Park, Ballsbridge Dublin 4, Dublin D04 YW83",
+            "country": "IE"
+        },
+        {
+            "conid": 202153350,
+            "symbol": "HYLD",
+            "name": "BlackRock Asset Management Ireland Limited (ISHARES GLOBAL HY CORP-DISTR)",
+            "taxNumber": 227552,
+            "address": "1st floor, 2 Ballsbridge Park, Ballsbridge Dublin 4, Dublin D04 YW83",
+            "country": "IE"
+        },
+        {
+            "conid": "WD",
+            "symbol": "WD",
+            "name": "WALKER DUNLOP INC",
+            "taxNumber": 800312140,
+            "address": "7501 WISCONSIN AVENUE SUITE 1200E, BETHESDA, Maryland, 20814, United States",
+            "country": "US"
+        },
+        {
+            "conid": "LOB",
+            "symbol": "LOB",
+            "name": "LIVE OAK BANCSHARES INC",
+            "taxNumber": 264596286,
+            "address": "1741 Tiburon Dr Wilmington, NC, 28403-6244 United State",
+            "country": "US"
+        },
+        {
+            "conid": 242140470,
+            "symbol": "KNSL",
+            "name": "KINSALE CAPITAL GROUP INC",
+            "taxNumber": 980624968,
+            "address": "2035 Maywill Street, Suite 100, Richmond, VA 23230",
+            "country": "US"
+        },
+        {
+            "conid": 7089,
+            "symbol": "FCX",
+            "name": "Freeport Mcmoran Inc",
+            "taxNumber": 742480931,
+            "address": "333 North Central Avenue, Phoenix, Arizona",
+            "country": "US"
+        },
+        {
+            "conid": 48834358,
+            "symbol": "BTG",
+            "name": "B2gold Corp",
+            "taxNumber": 832608129,
+            "address": "Suite 3400, Park Place 666 Burrard Street, Vancouver",
+            "country": "CA"
+        },
+        {
+            "conid": 274836867,
+            "symbol": "WPM",
+            "name": "Wheaton Precious Metals Corp.",
+            "taxNumber": 980459455,
+            "address": "3500-1021 West Hastings Street, Vancouver",
+            "country": "CA"
+        },
+        {
+            "conid": 8823,
+            "symbol": "KGC",
+            "name": "Kinross Gold Corporation",
+            "taxNumber": 650430083,
+            "address": "25 York Street, 17th Floor, Toronto, Ontario M5J 2V5",
+            "country": "CA"
+        },
+        {
+            "conid": 51069466,
+            "symbol": "FRES",
+            "name": "Fresnillo PLC",
+            "taxNumber": "MFR971117KU1",
+            "address": "Calz. Legaria No. 549, Torre 2, Piso 11 10 de Abril, Miguel Hidalgo México, CIUDAD DE MEXICO, 11250 Mexico",
+            "country": "MX"
+        },
+        {
+            "conid": 6857605,
+            "symbol": "GFI",
+            "name": "Gold Fields Ltd",
+            "taxNumber": 9160035607,
+            "address": "150 Helen Rd. Sandown, Sandton 2196 South Africa",
+            "country": "ZA"
+        },
+        {
+            "conid": 4812805,
+            "symbol": "HMY",
+            "name": "Harmony Gold Mining",
+            "taxNumber": 9240012600,
+            "address": "Randfontein Office park, Randfontein, South Africa",
+            "country": "ZA"
+        },
+        {
+            "conid": 441986547,
+            "symbol": "JAGGF",
+            "name": "Jaguar Mining Inc",
+            "taxNumber": 980396253,
+            "address": "First Canadian Place, 100 King Street West, 56th Flr., Toronto, Ontario M5X 1C9",
+            "country": "CA"
+        },
+        {
+            "conid": 441986553,
+            "symbol": "JAG",
+            "name": "Jaguar Mining Inc",
+            "taxNumber": 980396253,
+            "address": "First Canadian Place, 100 King Street West, 56th Flr., Toronto, Ontario M5X 1C9",
+            "country": "CA"
+        },
+        {
+            "conid": 4205,
+            "symbol": "AEM",
+            "name": "Agnico Eagle Mines Ltd",
+            "taxNumber": 841493125,
+            "address": "145 King Street East, Suite 400, Toronto, Ontario M5C 2Y7",
+            "country": "CA"
+        },
+        {
+            "symbol": "COST",
+            "name": "Costco Wholesale Corporation",
+            "taxNumber": 911223280,
+            "address": "999 Lake Dr, ISSAQUAH WA 98027-United States",
+            "country": "US"
+        },
+        {
+            "symbol": "VICI",
+            "name": "Vici Properties Inc.",
+            "taxNumber": 814177147,
+            "address": "535 Madison Avenue, 20th Floor, New York",
+            "country": "US"
+        },
+        {
+            "symbol": "SBUX",
+            "name": "Starbucks Corp",
+            "taxNumber": 911325671,
+            "address": "P O Box 34067, Seattle, Washington",
+            "country": "US"
+        },
+        {
+            "symbol": "IBKR",
+            "name": "Interactive Brokers Group, Inc.",
+            "taxNumber": 300390693,
+            "address": "1 Pickwick Plz, GREENWICH CT, 06830",
+            "country": "US"
+        },
+        {
+            "symbol": 1234,
+            "name": "China Lilang Ltd",
+            "taxNumber": "",
+            "address": "Rm 3402 34/F LIPPO CTR TWR ONE 89 QUEENSWAY Admiralty Hong Kong",
+            "country": "HK"
+        },
+        {
+            "symbol": "APAM",
+            "name": "Artisan Partners Asset Management Inc",
+            "taxNumber": 450969585,
+            "address": "875 E. Wisconsin Avenue Suite 800 Milwaukee Wisconsin 53202",
+            "country": "US"
+        },
+        {
+            "symbol": "V",
+            "name": "Visa Inc.",
+            "taxNumber": 260267673,
+            "address": "P.o. Box 8999 San Francisco California 94128-8999",
+            "country": "US"
+        },
+        {
+            "symbol": "UL",
+            "name": "UNILEVER PLC",
+            "taxNumber": 243359756,
+            "address": "PO BOX 68 ATTENTION VAT TEAM ROTTERDAM LONDON EC4P 4BQ",
+            "country": "GB"
+        },
+        {
+            "symbol": "WHR",
+            "name": "Whirlpool Corporation",
+            "taxNumber": 381490038,
+            "address": "Whirlpool Cntr 2000 M 63 Benton Harbor Michigan 49022-2692",
+            "country": "US"
+        },
+        {
+            "symbol": "BLK",
+            "name": "Blackrock Inc.",
+            "taxNumber": 320174431,
+            "address": "55 East 52nd Street New York New York 10055",
+            "country": "US"
+        },
+        {
+            "symbol": "TROW",
+            "name": "Price T Rowe Group Inc",
+            "taxNumber": 522264646,
+            "address": "100 East Pratt Street Baltimore Maryland 21289-0320",
+            "country": "US"
+        },
+        {
+            "symbol": "BBY",
+            "name": "Best Buy Co Inc",
+            "taxNumber": 410907483,
+            "address": "7601 Penn Ave South Richfield Minnesota 55423",
+            "country": "US"
+        },
+        {
+            "symbol": "C",
+            "name": "Citigroup Inc",
+            "taxNumber": 521568099,
+            "address": "388 Greenwich Street New York New York 10013",
+            "country": "US"
+        },
+        {
+            "symbol": "SWK",
+            "name": "Stanley Black &amp; Decker, Inc.",
+            "taxNumber": 60548860,
+            "address": "1000 Stanley Dr New Britain Connecticut 06053",
+            "country": "US"
+        },
+        {
+            "symbol": "ALLY",
+            "name": "Ally Financial Inc",
+            "taxNumber": 380572512,
+            "address": "Ally Detroit Center 500 Woodward Ave. Floor 10 Detroit Michigan 48226",
+            "country": "US"
+        },
+        {
+            "symbol": "AQNU",
+            "name": "Algonquin Power and Utilities Units",
+            "taxNumber": 980406902,
+            "address": "2845 Bristol Circle Oakville A6 L6H 7H7",
+            "country": "CA"
+        },
+        {
+            "symbol": "TMO",
+            "name": "Thermo Fisher Scientific Inc",
+            "taxNumber": 42209186,
+            "address": "168 Third Avenue Waltham Massachusetts 02451",
+            "country": "US"
+        },
+        {
+            "conid": 318336,
+            "symbol": "USOI",
+            "name": "CREDIT SUISSE X-LINKS CRUDE OIL SHARES COVEREDCALL ETNS",
+            "taxNumber": 50546650,
+            "address": "Eleven Madison Avenue, New York, NY 10010",
+            "country": "US"
+        },
+        {
+            "conid": 1163165,
+            "symbol": "COP",
+            "name": "ConocoPhillips",
+            "taxNumber": 10562944,
+            "address": "925 North Eldridge Parkway, Houston, TX 77079-2703",
+            "country": "US"
+        },
+        {
+            "conid": 1020569,
+            "symbol": "IRM",
+            "name": "Iron Mountain Incorporated",
+            "taxNumber": 232588479,
+            "address": "One Federal Street, Boston, MA 02110",
+            "country": "US"
+        },
+        {
+            "conid": 1121788,
+            "symbol": "GRMN",
+            "name": "Garmin Ltd",
+            "taxNumber": 980229227,
+            "address": "1200 E. 151st St. Olathe, KS 66062-3426",
+            "country": "US"
+        },
+        {
+            "symbol": "TDS",
+            "name": "Telephone and Data Systems, Inc.",
+            "taxNumber": 363930160,
+            "address": "30 North LaSalle Street, Suite 4000, Chicago, IL 60602",
+            "country": "US"
+        },
+        {
+            "conid": 320187,
+            "symbol": "NKE",
+            "name": "Nike, Inc.",
+            "taxNumber": 930584541,
+            "address": "One Bowerman Drive, Beaverton, OR 97005-6453",
+            "country": "US"
+        },
+        {
+            "symbol": "NTDOY",
+            "name": "Nintendo Of America Inc.",
+            "taxNumber": 133024042,
+            "address": "4600 150th Avenue Ne, Redmond, Washington, 98052",
+            "country": "US"
+        },
+        {
+            "conid": 8894,
+            "symbol": "KO",
+            "name": "The Coca-Cola Company",
+            "taxNumber": 876272550,
+            "address": "One Coca-Cola Plaza, Atlanta, GA 30313",
+            "country": "US"
+        },
+        {
+            "conid": 1109357,
+            "symbol": "EXC",
+            "name": "Exelon Corporation",
+            "taxNumber": 232990190,
+            "address": "10 South Dearborn Street, 54th Floor PO Box 805398, Chicago, IL 60680-5379",
+            "country": "US"
+        },
+        {
+            "symbol": "CEG",
+            "name": "Constellation Energy Corporation",
+            "taxNumber": 871210716,
+            "address": "1310 Point Street, Baltimore, MD 21231-3380",
+            "country": "US"
+        },
+        {
+            "symbol": "LLY",
+            "name": "Eli Lilly and Company",
+            "taxNumber": 136032849,
+            "address": "Lilly Corporate Center, Indianapolis, IN 46285",
+            "country": "US"
+        },
+        {
+            "conid": 764065,
+            "symbol": "CLF",
+            "name": "Cleveland-Cliffs Inc.",
+            "taxNumber": 341464672,
+            "address": "200 Public Square, Suite 3300, Cleveland, OH 44114-2315",
+            "country": "US"
+        },
+        {
+            "conid": 423920215,
+            "symbol": "SII",
+            "name": "Sprott Inc.",
+            "taxNumber": 820056216,
+            "address": "Royal Bank Plaza, South Tower, 200 Bay Street Suite 2600, Toronto, Ontario  M5J 2J1",
+            "country": "CA"
+        },
+        {
+            "conid": 34471161,
+            "symbol": "JVA",
+            "name": "Coffee Holding Co. Inc.",
+            "taxNumber": 112238111,
+            "address": "3475 Victory Boulevard, Staten Island, New York 10314",
+            "country": "US"
+        },
+        {
+            "conid": 41855679,
+            "symbol": "AG",
+            "name": "First Majestic Silver Corp.",
+            "taxNumber": 105549406,
+            "address": "925 West Georgia Street, Suite 1800, Vancouver, British Columbia, Canada, V6C 3L2",
+            "country": "CA"
+        },
+        {
+            "conid": 6604203,
+            "symbol": "AVD",
+            "name": "AMERICAN VANGUARD CORP",
+            "taxNumber": 952588080,
+            "address": "4695 MACARTHUR COURT, NEWPORT BEACH, CALIFORNIA 92660",
+            "country": "US"
+        },
+        {
+            "conid": 4816190,
+            "symbol": "PAAS",
+            "name": "Pan American Silver Corp.",
+            "taxNumber": 1147717608,
+            "address": "1500-625 HOWE STREET VANCOUVER BC CANADA V6C 2T6",
+            "country": "CA"
+        },
+        {
+            "conid": 14893065,
+            "symbol": "PAAS",
+            "name": "Pan American Silver Corp.",
+            "taxNumber": 1147717608,
+            "address": "1500-625 HOWE STREET VANCOUVER BC CANADA V6C 2T6",
+            "country": "CA"
+        },
+        {
+            "conid": 220580491,
+            "symbol": "FRO",
+            "name": "Frontline Ltd",
+            "taxNumber": 980459426,
+            "address": "Par-la-Ville Place, 14 Par-la-Ville Road, Hamilton, HM 08, Bermuda",
+            "country": "BM"
+        },
+        {
+            "conid": 320227565,
+            "symbol": "PDBC",
+            "name": "Invesco Optimum Yield Diversified Commodity Strategy No K-1 ETF",
+            "taxNumber": 326042243,
+            "address": "3500 LACEY ROAD SUITE 700 DOWNERS GROVE IL 60515",
+            "country": "US"
+        },
+        {
+            "conid": 33202307,
+            "symbol": "ULH",
+            "name": "Universal Logistics Holdings Inc",
+            "taxNumber": 383640097,
+            "address": "12755 E. Nine Mile Road, Warren MI",
+            "country": "US"
+        },
+        {
+            "conid": 4817403,
+            "symbol": "RGLD",
+            "name": "Royal Gold Inc",
+            "taxNumber": 840835164,
+            "address": "1144 15th Street, Suite 2500, Denver, CO",
+            "country": "US"
+        },
+        {
+            "conid": 141973363,
+            "symbol": "EPV",
+            "name": "ProShares UltraShort FTSE Europe ETF",
+            "taxNumber": 876284802,
+            "address": "7272 Wisconsin Avenue 21st Floor, Bethesda, Maryland 20814",
+            "country": "US"
+        },
+        {
+            "conid": 262834,
+            "symbol": "ZURN",
+            "name": "Zurich Insurance Group AG",
+            "taxNumber": "CHE101236480",
+            "address": "Austrasse 46 Zurich, 8045",
+            "country": "CH"
+        },
+        {
+            "conid": 909271,
+            "symbol": "STAN",
+            "name": "Standard Chartered PLC",
+            "taxNumber": "GB244106593",
+            "address": "1 Basinghall Avenue London, EC2V 5DD",
+            "country": "GB"
+        },
+        {
+            "conid": 77111381,
+            "symbol": "CGG",
+            "name": "China Gold International Resources Corp Ltd",
+            "taxNumber": "CA16890P1036",
+            "address": "1 Bentall Centre, 505 Burrard Suite 660, PO Box 27 Vancouver, BC",
+            "country": "CA"
+        },
+        {
+            "conid": 1616393,
+            "symbol": 101,
+            "name": "Hang Lung Properties Ltd",
+            "taxNumber": "01050802-000",
+            "address": "28/F., 4 Des Voeux Road Central, Hong Kong",
+            "country": "HK"
+        },
+        {
+            "conid": 59754535,
+            "symbol": 215,
+            "name": "Hutchison Telecommunications HK Hld Ltd",
+            "taxNumber": 50335275,
+            "address": "19/F, Hutchison Telecom Tower, 99 Cheung Fai Road, Tsing Yi",
+            "country": "HK"
+        },
+        {
+            "conid": 1616510,
+            "symbol": 23,
+            "name": "Bank of East Asia Ltd",
+            "taxNumber": 255,
+            "address": "10 Des Voeux Road, 19th Floor, PO Box 31, Central Hong Kong",
+            "country": "HK"
+        },
+        {
+            "conid": 128356142,
+            "symbol": 2386,
+            "name": "SINOPEC Engineering Group Co Ltd",
+            "taxNumber": "",
+            "address": "Building 8, Shenggujiayuan, Shenggu Middle Road, Beijing, 100029",
+            "country": "CN"
+        },
+        {
+            "conid": 4116485,
+            "symbol": 315,
+            "name": "SmarTone Telecommunications Holdings Ltd",
+            "taxNumber": 3645421,
+            "address": "45th Floor, Sun Hung Kai Centre, 30 Harbour Road, Hong Kong",
+            "country": "HK"
+        },
+        {
+            "conid": 2586589,
+            "symbol": "EWL",
+            "name": "iShares MSCI Switzerland ETF",
+            "taxNumber": "IE8227552C",
+            "address": "BlackRock Asset Management Ireland - ETF 1st Floor 2 Ballsbridge Park Dublin 4 Dublin D04 YW83 Ireland",
+            "country": "IE"
+        },
+        {
+            "conid": 38551985,
+            "symbol": "BMA",
+            "name": "Banco Macro SA",
+            "taxNumber": "30-50001008-4",
+            "address": "Sarmiento 447 Buenos Aires, 1041",
+            "country": "AR"
+        },
+        {
+            "conid": 92214835,
+            "symbol": "5JS",
+            "name": "Indofood Agri Resources Ltd",
+            "taxNumber": "200106551G",
+            "address": "8 Eu Tong Sen St, Singapore 059818",
+            "country": "SG"
+        },
+        {
+            "conid": 199971960,
+            "symbol": "PBBd",
+            "name": "Deutsche Pfandbriefbank AG",
+            "taxNumber": "DE811223976",
+            "address": "Freisinger Str. 585716 Unterschleißheim",
+            "country": "DE"
+        },
+        {
+            "conid": 404364696,
+            "symbol": "SBSW",
+            "name": "Sibanye Stillwater Ltd",
+            "taxNumber": "9723 182 169",
+            "address": "Ground Floor, Bridgeview House, Constantia Office Park, Cnr 14th Avenue &amp; Hendrik Potgieter Road, Lakeview Ave, Weltevredenpark, 1709",
+            "country": "ZA"
+        },
+        {
+            "conid": 70578542,
+            "symbol": "WDS",
+            "name": "Woodside Energy Group Ltd",
+            "taxNumber": "63 005 482 986",
+            "address": "Mia Yellagonga, 11 Mount Street, Perth WA 6000",
+            "country": "AU"
+        },
+        {
+            "conid": 562595593,
+            "symbol": "SHELL.RT",
+            "name": "Shell plc",
+            "taxNumber": "GB 235 7632 55",
+            "address": "York Road Shell Centre London, SE1 7NA",
+            "country": "GB"
+        },
+        {
+            "conid": 596695682,
+            "symbol": "SHELL.DVO",
+            "name": "Shell plc",
+            "taxNumber": "GB 235 7632 55",
+            "address": "York Road Shell Centre London, SE1 7NA",
+            "country": "GB"
+        },
+        {
+            "conid": 578803986,
+            "symbol": "SHELL.DIV",
+            "name": "Shell plc",
+            "taxNumber": "GB 235 7632 55",
+            "address": "York Road Shell Centre London, SE1 7NA",
+            "country": "GB"
+        },
+        {
+            "conid": 544925226,
+            "symbol": "SHELL.RTS",
+            "name": "Shell plc",
+            "taxNumber": "GB 235 7632 55",
+            "address": "York Road Shell Centre London, SE1 7NA",
+            "country": "GB"
+        },
+        {
+            "conid": 4865977,
+            "symbol": "SLHN",
+            "name": "Swiss Life Holding AG",
+            "taxNumber": "CHE-116.286.759",
+            "address": "General-Guisan-Quai 40, 8022 Zürich",
+            "country": "CH"
+        },
+        {
+            "conid": 29622935,
+            "symbol": "MBGd",
+            "name": "Mercedes-Benz Group AG",
+            "taxNumber": "DE 81 25 26 315",
+            "address": "Mercedesstraße 120, 70372 Stuttgart",
+            "country": "DE"
+        },
+        {
+            "conid": 117901244,
+            "symbol": "J91U",
+            "name": "ESR-Logos REIT",
+            "taxNumber": "-",
+            "address": "138 Market Street #26-03/04 CapitaGreen Singapore, 048946 Singapore",
+            "country": "SG"
+        },
+        {
+            "conid": 1715014,
+            "symbol": "BVN",
+            "name": "Cia de Minas Buenaventura SA",
+            "taxNumber": 20100079501,
+            "address": "C. Las Begonias 415, San Isidro 15046",
+            "country": "PE"
+        },
+        {
+            "conid": 14094,
+            "symbol": "BMWd",
+            "name": "Bayerische Motoren Werke AG",
+            "taxNumber": "DE129273398",
+            "address": "Petuelring 130, 80809 München",
+            "country": "DE"
+        },
+        {
+            "conid": 45743607,
+            "symbol": "AOI",
+            "name": "Africa Oil Corp",
+            "taxNumber": "BC0443700",
+            "address": "666 Burrard St #2500, Vancouver, BC V6C 2X8",
+            "country": "CA"
+        },
+        {
+            "conid": 462304864,
+            "symbol": "FTCO",
+            "name": "Fortitude Gold Corp",
+            "taxNumber": "85-2602691",
+            "address": "2886 Carriage Manor Point, Colorado Springs, CO 80906",
+            "country": "US"
+        },
+        {
+            "conid": 565113874,
+            "symbol": "TEFDe",
+            "name": "Telefónica, S.A.",
+            "taxNumber": "A28015865",
+            "address": "Gran Vía 28, 28013, Madrid",
+            "country": "ES"
+        },
+        {
+            "conid": 908931,
+            "symbol": "BATS",
+            "name": "British American Tobacco plc",
+            "taxNumber": "GB239136950",
+            "address": "Globe House, 4 Temple Place, London WC2R 2PG",
+            "country": "GB"
+        },
+        {
+            "conid": 28213000,
+            "symbol": "BBD",
+            "name": "Banco Bradesco SA",
+            "taxNumber": "60746948/0001-12",
+            "address": "Núcleo Cidade de Deus, s/n, Vila Yara, Osasco, SP 06029-900",
+            "country": "BR"
+        },
+        {
+            "conid": 3408229,
+            "symbol": 941,
+            "name": "China Mobile Ltd",
+            "taxNumber": 911100007109250300,
+            "address": "29 Finance dajie, Xicheng, Beijing 100032",
+            "country": "CN"
+        },
+        {
+            "conid": 46636681,
+            "symbol": 857,
+            "name": "Petrochina Co Ltd",
+            "taxNumber": "91110000710925462X",
+            "address": "9 Dongzhimen North Street, Dongcheng District, Beijing CN-BJ CN 100007",
+            "country": "CN"
+        },
+        {
+            "conid": 2117419,
+            "symbol": "IMB",
+            "name": "Imperial Brands Plc",
+            "taxNumber": "GB238578914",
+            "address": "121 Winterstoke Road, Bristol, England, BS3 2LL",
+            "country": "GB"
+        },
+        {
+            "conid": 1615110,
+            "symbol": "NOVN",
+            "name": "Novartis AG",
+            "taxNumber": "CHE-116.268.023",
+            "address": "Lichtstrasse 35, Basel, 4056",
+            "country": "CH"
+        },
+        {
+            "conid": 29612111,
+            "symbol": "BN",
+            "name": "Danone SA",
+            "taxNumber": "FR27552032534",
+            "address": "17 boulevard Haussmann, 75009 Paris",
+            "country": "FR"
+        },
+        {
+            "conid": 58996617,
+            "symbol": "ITUB",
+            "name": "Itau Unibanco SA",
+            "taxNumber": "60701190/0001-04",
+            "address": "Praça Alfredo Egydio de Souza Aranha, n. 100, Torre Olavo Setúbal, São Paulo/SP, CEP 04344-902",
+            "country": "BR"
+        },
+        {
+            "conid": 117901235,
+            "symbol": "K2LU",
+            "name": "ARA LOGOS LOGISTICS TRUST",
+            "taxNumber": "200919331H",
+            "address": "50 Collyer Quay, #05-05 OUE Bayfront, Singapore 049321",
+            "country": "SG"
+        },
+        {
+            "conid": 117901235,
+            "symbol": "K2LU.OLD",
+            "name": "ARA LOGOS LOGISTICS TRUST",
+            "taxNumber": "200919331H",
+            "address": "50 Collyer Quay, #05-05 OUE Bayfront, Singapore 049321",
+            "country": "SG"
+        },
+        {
+            "conid": 30314159,
+            "symbol": "TFA",
+            "name": "Telefonica SA",
+            "taxNumber": "A28015865",
+            "address": "C/Ronda de la Comunicación SN, Edificio Central, planta 2ª, 28050, Madrid",
+            "country": "ES"
+        },
+        {
+            "conid": 4986,
+            "symbol": "BHP",
+            "name": "BHP GROUP LTD",
+            "taxNumber": 49004028077,
+            "address": "171 Collins St Bhp Centre Melbourne, VIC 3000",
+            "country": "AU"
+        },
+        {
+            "conid": 99690164,
+            "symbol": "CEY",
+            "name": "Centamin Plc",
+            "taxNumber": "-",
+            "address": "2 Mulcaster Street, St Helier, JE2 3NJ",
+            "country": "JE"
+        },
+        {
+            "conid": 12816,
+            "symbol": "TKC",
+            "name": "Turkcell İletişim Hizmetleri AS",
+            "taxNumber": 8770013406,
+            "address": "Turkcell Küçükyalı Plaza, Aydınevler Mahallesi İnönü Caddesi No:20 Küçükyalı Ofispark, İnönü Cd. No:20 D:B Blok, 34854 Maltepe/İstanbul",
+            "country": "TR"
+        },
+        {
+            "conid": 4656,
+            "symbol": "AU",
+            "name": "AngloGold Ashanti Ltd",
+            "taxNumber": 42008737424,
+            "address": "140 St Georges Terrace, Perth WA 6000",
+            "country": "AU"
+        },
+        {
+            "conid": 9358,
+            "symbol": "MAR",
+            "name": "Marriott International Inc",
+            "taxNumber": "52-2055918",
+            "address": "10400 Fernwood Road, Bethesda, MD 20817",
+            "country": "US"
+        },
+        {
+            "conid": 156955487,
+            "symbol": "OR",
+            "name": "Osisko Gold Royalties Ltd",
+            "taxNumber": 1170032933,
+            "address": "1100 Av. des Canadiens-de-Montréal, Montréal, QC H3B 2S2",
+            "country": "CA"
+        },
+        {
+            "conid": 42446165,
+            "symbol": 659,
+            "name": "NWS Holdings Ltd",
+            "taxNumber": 33582647,
+            "address": "21/F, NCB Innovation Centre, 888 Lai Chi Kok Road, Cheung Sha Wan, Kowloon",
+            "country": "HK"
+        },
+        {
+            "conid": 8027,
+            "symbol": "HL",
+            "name": "Hecla Mining Co",
+            "taxNumber": "77-0664171",
+            "address": "6500 N Mineral Dr, Coeur d'Alene, ID 83815",
+            "country": "US"
+        },
+        {
+            "conid": 29612249,
+            "symbol": "SAN",
+            "name": "Sanofi SA",
+            "taxNumber": "FR88395030844",
+            "address": "46 Av. de la Grande Armée, 75017 Paris",
+            "country": "FR"
+        },
+        {
+            "conid": 12442,
+            "symbol": "SAN",
+            "name": "Banco Santander SA",
+            "taxNumber": "A39000013",
+            "address": "C. de Juan Ignacio Luca de Tena, 11, 28027 Madrid",
+            "country": "ES"
+        },
+        {
+            "conid": 2586596,
+            "symbol": "EWP",
+            "name": "ISHARES MSCI SPAIN ETF",
+            "taxNumber": 8227552,
+            "address": "BlackRock Asset Management Ireland - ETF 1st Floor 2 Ballsbridge Park Dublin 4 Dublin D04 YW83 Ireland",
+            "country": "IE"
+        },
+        {
+            "conid": 40743577,
+            "symbol": "GORO",
+            "name": "Gold Resource Corp",
+            "taxNumber": "84-1473173",
+            "address": "2886 Carriage Manor Point, Colorado Springs, CO 80906",
+            "country": "US"
+        },
+        {
+            "conid": 30314140,
+            "symbol": "REPe",
+            "name": "Repsol SA",
+            "taxNumber": "A78374725",
+            "address": "Calle de Méndez Álvaro, 44, 28045 Madrid, Madrid",
+            "country": "ES"
+        },
+        {
+            "conid": 69238858,
+            "symbol": "FNV",
+            "name": "Franco-Nevada Corporation",
+            "taxNumber": 839026358,
+            "address": "Commerce Court West, 199 Bay St. #2000, Toronto, ON M5L 1G9",
+            "country": "CA"
+        },
+        {
+            "conid": 29612141,
+            "symbol": "CS",
+            "name": "AXA SA",
+            "taxNumber": "FR50572093920",
+            "address": "25 Av. Matignon, 75008 Paris",
+            "country": "FR"
+        },
+        {
+            "conid": 253190540,
+            "symbol": "EWI",
+            "name": "ISHARES MSCI ITALY ETF",
+            "taxNumber": 8227552,
+            "address": "BlackRock Asset Management Ireland - ETF 1st Floor 2 Ballsbridge Park Dublin 4 Dublin D04 YW83 Ireland",
+            "country": "IE"
+        },
+        {
+            "conid": 29612252,
+            "symbol": "ORA",
+            "name": "Orange",
+            "taxNumber": "FR89380129866",
+            "address": "111 Quai du Président Roosevelt, 92130 Issy-les-Moulineaux",
+            "country": "FR"
+        },
+        {
+            "conid": 88414907,
+            "symbol": "SREN",
+            "name": "Swiss Re AG",
+            "taxNumber": "CHE-116.291.855",
+            "address": "Mythenquai 50/60, 8002 Zürich",
+            "country": "CH"
+        },
+        {
+            "conid": 508626121,
+            "symbol": "BTCS",
+            "name": "BTCS Inc",
+            "taxNumber": "90-1096644",
+            "address": "9466 Georgia Avenue, Silver Spring, MD 20910",
+            "country": "US"
+        },
+        {
+            "conid": 5171,
+            "symbol": "BP",
+            "name": "BP Plc",
+            "taxNumber": 102498,
+            "address": "1 St James's Square, London, SW1Y 4PD",
+            "country": "GB"
+        },
+        {
+            "conid": 909054,
+            "symbol": "GSK",
+            "name": "GSK Plc",
+            "taxNumber": "GB239820839",
+            "address": "980 Great West Rd, London TW8 9GS",
+            "country": "GB"
+        },
+        {
+            "conid": 574757089,
+            "symbol": "GSK",
+            "name": "GSK Plc",
+            "taxNumber": "GB239820839",
+            "address": "980 Great West Rd, London TW8 9GS",
+            "country": "GB"
+        },
+        {
+            "conid": 41957241,
+            "symbol": "HOC",
+            "name": "Hochschild Mining Plc",
+            "taxNumber": 5777693,
+            "address": "17 Cavendish Square, London, W1G 0PH",
+            "country": "GB"
+        },
+        {
+            "conid": 240601748,
+            "symbol": "INN1d",
+            "name": "ING Groep NV",
+            "taxNumber": "NL009549420B01",
+            "address": "Bijlmerdreef 106, 1102CT Amsterdam",
+            "country": "NL"
+        },
+        {
+            "conid": 11289568,
+            "symbol": "NCM",
+            "name": "Newcrest Mining Ltd",
+            "taxNumber": 20005683625,
+            "address": "600 St. Kilda Road, Melbourne, Victoria 3004",
+            "country": "AU"
+        },
+        {
+            "conid": 12150119,
+            "symbol": 883,
+            "name": "CNOOC Ltd",
+            "taxNumber": 685974,
+            "address": "Bank Of China Tower, 1 Garden Rd, Central, Hong Kong",
+            "country": "HK"
+        },
+        {
+            "conid": 119890783,
+            "symbol": "O2Dd",
+            "name": "Telefónica Deutschland Holding AG",
+            "taxNumber": "DE266077779",
+            "address": "Georg-Brauchle-Ring 50, 80992 Munich",
+            "country": "DE"
+        },
+        {
+            "conid": 26985516,
+            "symbol": "AUY",
+            "name": "Yamana Gold Inc",
+            "taxNumber": 125079871,
+            "address": "40 King Street West, Suite 2100, Toronto ON M5H 3C2",
+            "country": "CA"
+        },
+        {
+            "conid": 10828168,
+            "symbol": "PBR",
+            "name": "Petroleo Brasileiro SA",
+            "taxNumber": "33.000.167/0001-01",
+            "address": "Avenida República do Chile 65, 20031-912, Rio de Janeiro, RJ",
+            "country": "BR"
+        },
+        {
+            "conid": 96736993,
+            "symbol": "A7RU",
+            "name": "Keppel Infrastructure Trust",
+            "taxNumber": "200803959H",
+            "address": "1 HarbourFront Ave, Singapore 098632",
+            "country": "SG"
+        },
+        {
+            "conid": 413951493,
+            "symbol": "XES",
+            "name": "SPDR S&amp;P Oil &amp; Gas Equipment &amp; Services ETF",
+            "taxNumber": "04-2456637",
+            "address": "One Lincoln Street, Boston, MA 02111",
+            "country": "US"
+        },
+        {
+            "conid": 29612206,
+            "symbol": "VIE",
+            "name": "Veolia Environnement",
+            "taxNumber": "FR47403210032",
+            "address": "21 Rue La Boétie, 75008 Paris",
+            "country": "FR"
+        },
+        {
+            "conid": 3985158,
+            "symbol": "SCMN",
+            "name": "Swisscom AG",
+            "taxNumber": "CHE-101.654.423",
+            "address": "Alte Tiefenaustrasse 6, 3048Worblaufen",
+            "country": "CH"
+        },
+        {
+            "conid": 42469783,
+            "symbol": "IGO",
+            "name": "IGO Ltd",
+            "taxNumber": 46092786304,
+            "address": "85 South Perth Esplanade Suite 4, Level 5, S Shore Cent South Perth, WA 6151",
+            "country": "AU"
+        },
+        {
+            "conid": 43626350,
+            "symbol": "Z74",
+            "name": "Singapore Communications Ltd",
+            "taxNumber": "199201624D",
+            "address": "31 Exeter Rd, Singapore 239732",
+            "country": "SG"
+        },
+        {
+            "conid": 47990698,
+            "symbol": "F34",
+            "name": "Wilmar International Ltd",
+            "taxNumber": "199904785Z",
+            "address": "56 Neil Rd, Singapore 088830",
+            "country": "SG"
+        },
+        {
+            "conid": 13379,
+            "symbol": "WM",
+            "name": "Waste Management",
+            "taxNumber": "73-1309529",
+            "address": "800 Capitol Street,HOUSTON,TX 77002",
+            "country": "US"
+        },
+        {
+            "conid": 117589399,
+            "symbol": "ASML",
+            "name": "ASML Holding N.V.",
+            "taxNumber": "NL803441526B01",
+            "address": "De Run 6501 5504 DR, Veldhoven, Noord-Brabant",
+            "country": "NL"
+        },
+        {
+            "conid": 2585323,
+            "symbol": "MTB",
+            "name": "M&amp;T Bank Corporation",
+            "taxNumber": "16-0968385",
+            "address": "One M&amp;t Plaza 5th Floor, Buffalo, NY 14203",
+            "country": "US"
+        },
+        {
+            "conid": 181387075,
+            "symbol": "MDT",
+            "name": "Medtronic Plc",
+            "taxNumber": 981183488,
+            "address": "20 On Hatch, Lower Hatch Street, Dublin, L2 2",
+            "country": "IE"
+        },
+        {
+            "conid": 13865082,
+            "symbol": "PRU",
+            "name": "Prudential Financial Inc",
+            "taxNumber": "22-3703799",
+            "address": "751 Broad St, Newark, NJ 07102",
+            "country": "US"
+        },
+        {
+            "conid": 13096,
+            "symbol": "TXN",
+            "name": "Texas Instruments Inc",
+            "taxNumber": "75-0289970",
+            "address": "P.o. Box 660199, Dallas, TX 75266",
+            "country": "US"
+        },
+        {
+            "conid": 4227,
+            "symbol": "AFL",
+            "name": "Aflac Inc",
+            "taxNumber": "58-1167100",
+            "address": "1932 Wynnton Rd, Columbus, GA 31999",
+            "country": "US"
+        },
+        {
+            "conid": 7616,
+            "symbol": "GIS",
+            "name": "General Mills Inc",
+            "taxNumber": "41-0274440",
+            "address": "Number One General Mills Blvd, Minneapolis, MN 55426",
+            "country": "US"
+        },
+        {
+            "conid": 12259,
+            "symbol": "SNA",
+            "name": "Snap On Inc",
+            "taxNumber": "39-0622040",
+            "address": "2801 80th Street, Kenosha, WI 53143",
+            "country": "US"
+        },
+        {
+            "conid": 13824,
+            "symbol": "WMT",
+            "name": "Walmart Inc",
+            "taxNumber": "71-0415188",
+            "address": "702 Southwest 8th St, Bentonville, AR 72716",
+            "country": "US"
+        },
+        {
+            "conid": 3655502,
+            "symbol": "CTBI",
+            "name": "Community Bankers Trust Corp",
+            "taxNumber": "20-2652949",
+            "address": "9954 Mayland Drive, Suite 2100, Richmond, VA 23233",
+            "country": "US"
+        },
+        {
+            "conid": 7745,
+            "symbol": "GPC",
+            "name": "Genuine Parts Co",
+            "taxNumber": "58-0254510",
+            "address": "2999 Wildwood Parkway, Atlanta, GA 30339",
+            "country": "US"
+        },
+        {
+            "conid": 5407,
+            "symbol": "CAH",
+            "name": "Cardinal Health Inc",
+            "taxNumber": "31-0958666",
+            "address": "7000 Cardinal Place, Dublin, OH 43017",
+            "country": "US"
+        },
+        {
+            "conid": 182880167,
+            "symbol": "ES",
+            "name": "Eversource Energy",
+            "taxNumber": "04-2147929",
+            "address": "300 Cadwell Drive, Springfield, MA 01104",
+            "country": "US"
+        },
+        {
+            "conid": 34029360,
+            "symbol": "EXSAd",
+            "name": "iShares STOXX Europe 600 UCITS ETF",
+            "taxNumber": 2635307,
+            "address": "BlackRock Asset Management Deutschland AG, Lenbachplatz 1, D-80333 München",
+            "country": "DE"
+        }
+    ]
+}
