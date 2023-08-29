@@ -15,7 +15,8 @@ There are still some improvements that can be made, which I will do if/when time
     - Click the green code button and select "Download ZIP"
     - Exctract the zip to a folder on your computer
 3. Open `CONFIG.cfg` and input your national(slovenian) `TAX_ID` number and `DIVIDEND_TYPE`
-4. Install the required packages from the `requirements.txt` (currently none)
+4. Install the required packages from the `requirements.txt`
+    - `pip install -r requirements.txt` Run this command in the terminal
 
 ## Usage
 
