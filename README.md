@@ -44,3 +44,11 @@ options:
 If the edavki.durs.si is returning an error when submitting, it means that some data in the csv is either missing or wrong. Check if your TAX_ID is correctly set, and that the company data is present. (If not, keep reading)
 
 If you are having any other issues, or a company you are using isn't on the list, create a new issue here on Github and I will take a look.
+
+## Liability
+
+The "etoro-furs" is provided on an "as is" basis. I make no representations or warranties of any kind, express or implied, regarding the functionality, performance, or suitability of the Software for any purpose.
+
+I shall not be liable for any direct, indirect, incidental, special, consequential, or exemplary damages, including but not limited to, loss of profits, data, or business interruption, arising out of the use or inability to use the Software.
+
+By using the Software, you acknowledge and agree that I assume no responsibility for any consequences resulting from the use of the Software. You agree to use the Software at your own risk.

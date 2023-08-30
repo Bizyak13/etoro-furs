@@ -1,3 +1,6 @@
+# !/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 import re
 import csv
 import json
@@ -28,6 +31,14 @@ def get_rounded_float(number) -> str:
     number = float(number)
     number = f'{number:.2f}'
     return str(number).replace('.', '#').replace(',', '.').replace('#', ',')
+
+
+def remove_offending_rows(table, keep) -> openpyxl.worksheet:
+    for row in range(table.max_row+1, 2, -1):
+        if table.cell(row=row, column=2).value != keep:
+            table.delete_rows(row, 1)
+    
+    return table
 
 
 def get_config() -> configparser.RawConfigParser:
@@ -100,6 +111,7 @@ def parse_input_file(rates) -> dict:
     workbook = openpyxl.load_workbook(args.input)
     dividends = workbook['Dividends']
     activity = workbook['Account Activity']
+    activity = remove_offending_rows(activity, 'Dividend')
 
     max_col = dividends.max_column
     max_row = dividends.max_row

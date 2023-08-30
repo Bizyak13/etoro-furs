@@ -88,9 +88,9 @@
         {
             "conid": 12973838,
             "symbol": "JNJ",
-            "name": "Johnson &amp; Johnson",
+            "name": "Johnson & Johnson",
             "taxNumber": 221024240,
-            "address": "One Johnson &amp; Johnson Plz, New Brunswick, NJ 08933",
+            "address": "One Johnson & Johnson Plz, New Brunswick, NJ 08933",
             "country": "US"
         },
         {
@@ -231,7 +231,7 @@
         {
             "conid": 358053635,
             "symbol": "LEVI",
-            "name": "Levi Strauss &amp; Co",
+            "name": "Levi Strauss & Co",
             "taxNumber": 940905160,
             "address": "1155 Battery St, San Francisco CA 94111",
             "country": "US"
@@ -392,7 +392,7 @@
         },
         {
             "symbol": "JPM",
-            "name": "Jpmorgan Chase &amp; Co",
+            "name": "Jpmorgan Chase & Co",
             "taxNumber": 132624428,
             "address": "383 Madison Avenue, New York, NY 10017",
             "country": "US"
@@ -466,9 +466,9 @@
         },
         {
             "symbol": "PG",
-            "name": "Procter &amp; Gamble Co",
+            "name": "Procter & Gamble Co",
             "taxNumber": 310411980,
-            "address": "One Procter &amp; Gamble Plaza, Cincinnati, OH 45202",
+            "address": "One Procter & Gamble Plaza, Cincinnati, OH 45202",
             "country": "US"
         },
         {
@@ -599,7 +599,7 @@
         },
         {
             "symbol": "T",
-            "name": "At&amp;t Inc.",
+            "name": "At&t Inc.",
             "taxNumber": 431301883,
             "address": "208 S. Akard St, Attn : James Lacy, Dallas, TX 75202",
             "country": "US"
@@ -732,7 +732,7 @@
         },
         {
             "symbol": "WFC",
-            "name": "Wells Fargo &amp; Company",
+            "name": "Wells Fargo & Company",
             "taxNumber": 410449260,
             "address": "420 Montgomery Street, San Francisco, CA 94163",
             "country": "US"
@@ -810,7 +810,7 @@
         {
             "conid": 128884495,
             "symbol": "VUSA",
-            "name": "Vanguard S&amp;P 500 UCITS ETF",
+            "name": "Vanguard S&P 500 UCITS ETF",
             "taxNumber": "00B3XXRP09",
             "address": "70 Sir John Rogerson's Quay Dublin 2 Ireland",
             "country": "IE"
@@ -859,7 +859,7 @@
         },
         {
             "symbol": "MRK",
-            "name": "Merck &amp; Co., Inc.",
+            "name": "Merck & Co., Inc.",
             "taxNumber": 221918501,
             "address": "2000 GALLOPING HILL ROAD K5 3155M, KENILWORTH, NJ, 070331310",
             "country": "US"
@@ -880,7 +880,7 @@
         },
         {
             "symbol": "BGS",
-            "name": "B&amp;G Foods, Inc.",
+            "name": "B&G Foods, Inc.",
             "taxNumber": 133918742,
             "address": "Four Gatehall Drive Suite 110 Parsippany, NJ 07054",
             "country": "US"
@@ -985,7 +985,7 @@
         },
         {
             "symbol": "AQN",
-            "name": "Algonquin Power &amp; Utilities Corp",
+            "name": "Algonquin Power & Utilities Corp",
             "taxNumber": 980406902,
             "address": "2845 Bristol Circle, Oakville, A6 L6H 7H7",
             "country": "CA"
@@ -1249,7 +1249,7 @@
         },
         {
             "symbol": "SWK",
-            "name": "Stanley Black &amp; Decker, Inc.",
+            "name": "Stanley Black & Decker, Inc.",
             "taxNumber": 60548860,
             "address": "1000 Stanley Dr New Britain Connecticut 06053",
             "country": "US"
@@ -1556,7 +1556,7 @@
             "symbol": "SBSW",
             "name": "Sibanye Stillwater Ltd",
             "taxNumber": "9723 182 169",
-            "address": "Ground Floor, Bridgeview House, Constantia Office Park, Cnr 14th Avenue &amp; Hendrik Potgieter Road, Lakeview Ave, Weltevredenpark, 1709",
+            "address": "Ground Floor, Bridgeview House, Constantia Office Park, Cnr 14th Avenue & Hendrik Potgieter Road, Lakeview Ave, Weltevredenpark, 1709",
             "country": "ZA"
         },
         {
@@ -1994,7 +1994,7 @@
         {
             "conid": 413951493,
             "symbol": "XES",
-            "name": "SPDR S&amp;P Oil &amp; Gas Equipment &amp; Services ETF",
+            "name": "SPDR S&P Oil & Gas Equipment & Services ETF",
             "taxNumber": "04-2456637",
             "address": "One Lincoln Street, Boston, MA 02111",
             "country": "US"
@@ -2058,9 +2058,9 @@
         {
             "conid": 2585323,
             "symbol": "MTB",
-            "name": "M&amp;T Bank Corporation",
+            "name": "M&T Bank Corporation",
             "taxNumber": "16-0968385",
-            "address": "One M&amp;t Plaza 5th Floor, Buffalo, NY 14203",
+            "address": "One M&t Plaza 5th Floor, Buffalo, NY 14203",
             "country": "US"
         },
         {
@@ -2158,6 +2158,14 @@
             "taxNumber": 2635307,
             "address": "BlackRock Asset Management Deutschland AG, Lenbachplatz 1, D-80333 München",
             "country": "DE"
+        },
+        {
+            "conid": 140145437,
+            "symbol": "NVO",
+            "name": "NOVO NORDISK A/S",
+            "taxNumber": 24256790,
+            "address": "Novo Alle 1, Bagsvaerd 2880, Denmark",
+            "country": "DK"
         }
     ]
 }
