@@ -14,6 +14,14 @@ import configparser
 
 import openpyxl
 
+
+ENCODING = 'utf-8'
+DF_ETORO = '%d/%m/%Y'
+DF_FURS = '%d. %m. %Y'
+DF_XML = '%Y-%m-%d'
+
+CURRENCY_FILE = 'currency-rates.xml'
+
 bsi_rate_url = 'https://www.bsi.si/_data/tecajnice/dtecbs-l.xml'
 
 csv_1st_line = '#FormCode;Version;TaxPayerID;TaxPayerType;DocumentWorkflowID;;;;;;'
@@ -22,6 +30,19 @@ csv_3rd_line = '#datum prejema dividende;davčna številka izplačevalca dividen
 
 
 def get_rounded_float(number) -> str:
+    """
+    Get a string representation of a number rounded to two decimal places. Takes into account the format and if there is a thousands separator present.
+
+    Parameters
+    ----------
+    number: Any
+        Number to transform
+        
+    Returns
+    -------
+    str
+        Representation of a given number in .2f format with ',' delimiter
+    """
     number = str(number)
     if ',' in number and '.' in number:
         if number.index(',') < number.index('.'):
@@ -33,21 +54,79 @@ def get_rounded_float(number) -> str:
     return str(number).replace('.', '#').replace(',', '.').replace('#', ',')
 
 
-def remove_offending_rows(table, keep) -> openpyxl.worksheet:
+def get_file_validity(file, days) -> bool:
+    """
+    Get the validity of file age (modified). Basically checks if the file is older than 'days'
+
+    Parameters
+    ----------
+    file: str
+        Location of the file in string format
+    days: int
+        Number of days to go back to
+        
+    Returns
+    -------
+    bool
+        Boolean if file age passed the check or not
+    """
+    modified_date = datetime.fromtimestamp(os.path.getmtime(file))
+    days_ago = datetime.today() - timedelta(days=days)
+    if modified_date < days_ago:
+        return True
+    return False
+
+
+def remove_offending_rows(table, keep, col) -> openpyxl.worksheet:
+    """
+    Removes offending rows from the xlsx file that are not needed
+
+    Parameters
+    ----------
+    table: openpyxl.worksheet
+        The worksheet with offending rows
+    keep: str
+        The string of cell value to check if row is affected
+    col: int
+        The column location for the check
+        
+    Returns
+    -------
+    openpyxl.worksheet
+        Returns the cleaned worksheet object with rows removed
+    """
     for row in range(table.max_row+1, 2, -1):
-        if table.cell(row=row, column=2).value != keep:
+        if table.cell(row=row, column=col).value != keep:
             table.delete_rows(row, 1)
     
     return table
 
 
 def get_config() -> configparser.RawConfigParser:
+    """
+    Get the config object from parsing the config file
+    """
     config = configparser.RawConfigParser()
     config.read('CONFIG.cfg')
     return config
 
 
 def get_config_value(section, key) -> any:
+    """
+    Get config value from the config
+
+    Parameters
+    ----------
+    section: str
+        Get the section in the config
+    key: str
+        Get the key in the section of the config
+        
+    Returns
+    -------
+    any
+        Returns the config value of the section.key
+    """
     value = config[section][key]
     if value is not None:
         return config[section][key]
@@ -73,11 +152,13 @@ def parse_args() -> list:
 
 
 def get_conversion_rate_file() -> dict:
-    filename = 'currency-rates.xml'
-    if not os.path.exists(filename):
-        request.urlretrieve(bsi_rate_url, filename)
+    if not os.path.exists(CURRENCY_FILE):
+        request.urlretrieve(bsi_rate_url, CURRENCY_FILE)
+    else:
+        if get_file_validity(CURRENCY_FILE, 2):
+            request.urlretrieve(bsi_rate_url, CURRENCY_FILE)
 
-    conversion_file = xml.etree.ElementTree.parse(filename).getroot()
+    conversion_file = xml.etree.ElementTree.parse(CURRENCY_FILE).getroot()
 
     rates = {}
     for d in conversion_file:
@@ -111,7 +192,7 @@ def parse_input_file(rates) -> dict:
     workbook = openpyxl.load_workbook(args.input)
     dividends = workbook['Dividends']
     activity = workbook['Account Activity']
-    activity = remove_offending_rows(activity, 'Dividend')
+    activity = remove_offending_rows(activity, 'Dividend', 2)
 
     max_col = dividends.max_column
     max_row = dividends.max_row
@@ -119,17 +200,17 @@ def parse_input_file(rates) -> dict:
     for i in range(2, max_row+1):
         rate = 0
         data_row = {}
-        date = datetime.strptime(dividends.cell(row=i, column=1).value, '%d/%m/%Y')
+        date = datetime.strptime(dividends.cell(row=i, column=1).value, DF_ETORO)
         # get price data for every row, based on the date
         for j in range(1, max_col + 1):
             data_row[dividends.cell(row=1, column=j).value] = dividends.cell(row=i, column=j).value
-            data_row['Date of Payment FURS'] = date.strftime('%d. %m. %Y')
+            data_row['Date of Payment FURS'] = date.strftime(DF_FURS)
             if j == 2:
                 # get data about the company and append it here
                 symbol_curr = activity.cell(row=i, column=3).value.split('/')
                 data_row['Symbol'] = symbol_curr[0]
                 data_row['Currency'] = symbol_curr[1]
-                company_json = json.load(open('companies.json', encoding='utf-8'))
+                company_json = json.load(open('companies.json', encoding=ENCODING))
                 for company in company_json['companies']:
                     if company['symbol'] == activity.cell(row=i, column=3).value.split('/')[0]:
                         data_row['Company Name'] = company['name']
@@ -145,7 +226,7 @@ def parse_input_file(rates) -> dict:
                         last_working = (date - timedelta(days=k)).strftime('%Y%m%d')
                         if last_working in rates:
                             rate = float(rates[last_working][data_row['Currency']])
-                            data_row['Conversion rate date'] = (date - timedelta(days=k)).strftime('%Y-%m-%d')
+                            data_row['Conversion rate date'] = (date - timedelta(days=k)).strftime(DF_XML)
                             break
                     if rate == 0:
                         raise SystemExit('ERROR: No exchange rate found for this date')
@@ -166,7 +247,7 @@ def create_output_file(data) -> str:
     else:
         output = args.output
     
-    csv_output = open(output, 'w', encoding='utf-8')
+    csv_output = open(output, 'w', encoding=ENCODING)
     csv_writer = csv.writer(csv_output, lineterminator='\n', delimiter=';')
     csv_writer.writerow(csv_1st_line.split(';'))
     csv_writer.writerow(csv_2nd_line.replace('xxxxxxxx', get_config_taxid()).split(';'))

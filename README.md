@@ -39,6 +39,9 @@ options:
   -v, --verbose  Verbose output
 ```
 
+To submit the file to the FURS authoriti, login and go to the dashboard('Namizje'), the click documents('Dokumenti') and then Doh-Div ('Napoved za odmero dohodnine od dividend').
+Select the year of submission, and under 'Uvoz podatkov o izplačevalcih dividend in izplačanih dividendah s csv datoteko' upload the csv file you generated.
+
 ## Issues/Troubleshooting
 
 If the edavki.durs.si is returning an error when submitting, it means that some data in the csv is either missing or wrong. Check if your TAX_ID is correctly set, and that the company data is present. (If not, keep reading)
