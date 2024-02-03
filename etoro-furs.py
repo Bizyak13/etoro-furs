@@ -95,7 +95,7 @@ def remove_offending_rows(table, keep, col) -> openpyxl.worksheet:
     openpyxl.worksheet
         Returns the cleaned worksheet object with rows removed
     """
-    for row in range(table.max_row+1, 2, -1):
+    for row in range(table.max_row, 1, -1):
         if table.cell(row=row, column=col).value != keep:
             table.delete_rows(row, 1)
     
@@ -218,9 +218,9 @@ def parse_input_file(rates) -> dict:
                         data_row['Company Country'] = company['country']
                         data_row['Company TAX ID'] = company['taxNumber']
 
-            net_row = 3
-            tax_row = 6
-            if j == net_row:
+            net_col = 3
+            tax_col = 6
+            if j == net_col:
                 if date.strftime('%Y%m%d') in rates:
                     rate = float(rates[date.strftime('%Y%m%d')][activity.cell(row=i, column=3).value.split('/')[1]])
                 else:
@@ -233,11 +233,20 @@ def parse_input_file(rates) -> dict:
                     if rate == 0:
                         raise SystemExit('ERROR: No exchange rate found for this date')
                 data_row[f'Conversion rate (EUR/{data_row["Currency"]})'] = rate
-                gross = (dividends.cell(row=i, column=net_row).value + dividends.cell(row=i, column=tax_row).value)/rate
-                data_row['Gross Dividend Received (EUR)'] = get_rounded_float(gross)
+                gross_script = (dividends.cell(row=i, column=net_col).value/rate + dividends.cell(row=i, column=tax_col).value/rate)
+                gross_etoro = (dividends.cell(row=i, column=net_col+1).value + dividends.cell(row=i, column=tax_col+1).value)
+                
+                if args.verbose:
+                    print(f'Scrpt € | net: {dividends.cell(row=i, column=net_col).value/rate:.4f},\ttax: {dividends.cell(row=i, column=tax_col).value/rate:.4f},\tgross: {gross_script:.4f}\trate: {rate:.4f}')
+                    print(f'Etoro € | net: {dividends.cell(row=i, column=net_col+1).value:.4f},\ttax: {dividends.cell(row=i, column=tax_col+1).value:.4f},\tgross: {gross_etoro:.4f}\trate: {(dividends.cell(row=i, column=tax_col).value/dividends.cell(row=i, column=tax_col+1).value):.4f}')
+                    print(f'================================================================')
+                
+                data_row['Gross Dividend Received (EUR) script'] = get_rounded_float(gross_script)
+                data_row['Gross Dividend Received (EUR) etoro'] = get_rounded_float(gross_etoro)
             
-            if j == tax_row:
-                data_row['Withholding Tax Amount (EUR)'] = get_rounded_float(dividends.cell(row=i, column=tax_row).value/rate)
+            if j == tax_col:
+                data_row['Withholding Tax Amount (EUR) script'] = get_rounded_float(dividends.cell(row=i, column=tax_col).value/rate)
+                data_row['Withholding Tax Amount (EUR) etoro'] = get_rounded_float(dividends.cell(row=i, column=tax_col+1).value)
         
         data[i-1] = data_row
     return data
@@ -260,7 +269,7 @@ def create_output_file(data) -> str:
         dividend_type = get_config_value('TAX_ID', 'DIVIDEND_TYPE')
         if not dividend_type:
             dividend_type = 1
-        csv_writer.writerow([line['Date of Payment FURS'], '', line['Company TAX ID'], line['Company Name'], line['Company Address'], line['Company Country'], dividend_type, line['Gross Dividend Received (EUR)'], get_rounded_float(line['Withholding Tax Amount (EUR)']), line['Company Country'], ''])
+        csv_writer.writerow([line['Date of Payment FURS'], '', line['Company TAX ID'], line['Company Name'], line['Company Address'], line['Company Country'], dividend_type, line['Gross Dividend Received (EUR) script'], line['Withholding Tax Amount (EUR) script'], line['Company Country'], ''])
     csv_output.close()
 
     return output
@@ -275,6 +284,8 @@ if __name__ == '__main__':
     
     print('etoro-furs: Parsing input file')
     data = parse_input_file(rates)
+    if args.verbose:
+        print(json.dumps(data))
     print('etoro-furs: Generating csv file')
     file = create_output_file(data)
     print(f'etoro-furs: DONE! -> {file}')

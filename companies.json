@@ -2159,6 +2159,22 @@
             "address": "BlackRock Asset Management Deutschland AG, Lenbachplatz 1, D-80333 München",
             "country": "DE"
         },
+	{
+            "conid": 120549428,
+            "symbol": "MDLZ",
+            "name": "Mondelez International",
+            "taxNumber": "52-2284372",
+            "address": "Three Parkway North, 60015 Deerfield, Illinois",
+            "country": "US"
+	},
+	{
+            "conid": 663536711,
+            "symbol": "DHR",
+            "name": "Danaher Corporation",
+            "taxNumber": "59-1995548",
+            "address": "2200 Pennsylvania Avenue, N.W., Suite 800W Washington, D.C.",
+            "country": "US"
+        },
         {
             "conid": 140145437,
             "symbol": "NVO",
