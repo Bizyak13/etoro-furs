@@ -218,7 +218,9 @@ def parse_input_file(rates) -> dict:
                         data_row['Company Country'] = company['country']
                         data_row['Company TAX ID'] = company['taxNumber']
 
-            if j == 3:
+            net_row = 3
+            tax_row = 6
+            if j == net_row:
                 if date.strftime('%Y%m%d') in rates:
                     rate = float(rates[date.strftime('%Y%m%d')][activity.cell(row=i, column=3).value.split('/')[1]])
                 else:
@@ -231,10 +233,11 @@ def parse_input_file(rates) -> dict:
                     if rate == 0:
                         raise SystemExit('ERROR: No exchange rate found for this date')
                 data_row[f'Conversion rate (EUR/{data_row["Currency"]})'] = rate
-                data_row['Net Dividend Received (EUR)'] = get_rounded_float(dividends.cell(row=i, column=3).value/rate)
-                
-            if j == 5:
-                data_row['Withholding Tax Amount (EUR)'] = get_rounded_float(dividends.cell(row=i, column=5).value/rate)
+                gross = (dividends.cell(row=i, column=net_row).value + dividends.cell(row=i, column=tax_row).value)/rate
+                data_row['Gross Dividend Received (EUR)'] = get_rounded_float(gross)
+            
+            if j == tax_row:
+                data_row['Withholding Tax Amount (EUR)'] = get_rounded_float(dividends.cell(row=i, column=tax_row).value/rate)
         
         data[i-1] = data_row
     return data
@@ -257,7 +260,7 @@ def create_output_file(data) -> str:
         dividend_type = get_config_value('TAX_ID', 'DIVIDEND_TYPE')
         if not dividend_type:
             dividend_type = 1
-        csv_writer.writerow([line['Date of Payment FURS'], '', line['Company TAX ID'], line['Company Name'], line['Company Address'], line['Company Country'], dividend_type, line['Net Dividend Received (EUR)'], line['Withholding Tax Amount (EUR)'], line['Company Country'], ''])
+        csv_writer.writerow([line['Date of Payment FURS'], '', line['Company TAX ID'], line['Company Name'], line['Company Address'], line['Company Country'], dividend_type, line['Gross Dividend Received (EUR)'], get_rounded_float(line['Withholding Tax Amount (EUR)']), line['Company Country'], ''])
     csv_output.close()
 
     return output
