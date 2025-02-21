@@ -6,8 +6,8 @@ import csv
 import json
 import os.path
 import argparse
+import requests
 import xml.etree.ElementTree
-from urllib import request
 from datetime import datetime
 from datetime import timedelta
 import configparser
@@ -21,6 +21,10 @@ DF_FURS = '%d. %m. %Y'
 DF_XML = '%Y-%m-%d'
 
 CURRENCY_FILE = 'currency-rates.xml'
+
+headers = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+}
 
 bsi_rate_url = 'https://www.bsi.si/_data/tecajnice/dtecbs-l.xml'
 
@@ -153,10 +157,17 @@ def parse_args() -> list:
 
 def get_conversion_rate_file() -> dict:
     if not os.path.exists(CURRENCY_FILE):
-        request.urlretrieve(bsi_rate_url, CURRENCY_FILE)
+        response = requests.get(bsi_rate_url, headers=headers)
     else:
         if get_file_validity(CURRENCY_FILE, 2):
-            request.urlretrieve(bsi_rate_url, CURRENCY_FILE)
+            response = requests.get(bsi_rate_url, headers=headers)
+    
+    if response.status_code == 200:
+        with open(CURRENCY_FILE, "wb") as file:
+            file.write(response.content)
+        print("etoro-furs: XML file downloaded successfully.")
+    else:
+        print(f"etoro-furs: Failed to download. Status code: {response.status_code}")
 
     conversion_file = xml.etree.ElementTree.parse(CURRENCY_FILE).getroot()
 
