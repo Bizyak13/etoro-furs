@@ -156,18 +156,15 @@ def parse_args() -> list:
 
 
 def get_conversion_rate_file() -> dict:
-    if not os.path.exists(CURRENCY_FILE):
+    if not os.path.exists(CURRENCY_FILE) or not get_file_validity(CURRENCY_FILE, 2):
         response = requests.get(bsi_rate_url, headers=headers)
-    else:
-        if get_file_validity(CURRENCY_FILE, 2):
-            response = requests.get(bsi_rate_url, headers=headers)
-    
-    if response.status_code == 200:
-        with open(CURRENCY_FILE, "wb") as file:
-            file.write(response.content)
-        print("etoro-furs: XML file downloaded successfully.")
-    else:
-        print(f"etoro-furs: Failed to download. Status code: {response.status_code}")
+        if response.status_code == 200:
+            print("etoro-furs: XML file downloaded successfully.")
+            with open(CURRENCY_FILE, "wb") as file:
+                file.write(response.content)
+        else:
+            print("etoro-furs: Currency rates file could not be downloaded.")
+            exit(1)
 
     conversion_file = xml.etree.ElementTree.parse(CURRENCY_FILE).getroot()
 
@@ -228,6 +225,10 @@ def parse_input_file(rates) -> dict:
                         data_row['Company Address'] = company['address']
                         data_row['Company Country'] = company['country']
                         data_row['Company TAX ID'] = company['taxNumber']
+                
+                if not 'Company Name' in data_row:
+                    print(f'etoro-furs: Company <{activity.cell(row=i, column=3).value.split('/')[0]}> not found in companies.json, please add it!')
+                    exit(1)
 
             net_col = 3
             tax_col = 6

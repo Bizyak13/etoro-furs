@@ -1,6 +1,14 @@
 {
     "companies": [
         {
+            "conid": 166090175,
+            "symbol": "BABA",
+            "name": "Alibaba Group Holding Ltd",
+            "taxNumber": 12131206,
+            "address": "969 West Wen Yi Road, 311121 Hangzhou",
+            "country": "CN"
+        },
+        {
             "conid": 13013300,
             "symbol": "APC",
             "name": "Apple Inc",
