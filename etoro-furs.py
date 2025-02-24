@@ -227,7 +227,7 @@ def parse_input_file(rates) -> dict:
                         data_row['Company TAX ID'] = company['taxNumber']
                 
                 if not 'Company Name' in data_row:
-                    print(f'etoro-furs: Company <{activity.cell(row=i, column=3).value.split('/')[0]}> not found in companies.json, please add it!')
+                    print(f'etoro-furs: Company <{activity.cell(row=i, column=3).value.split("/")[0]}> not found in companies.json, please add it!')
                     exit(1)
 
             net_col = 3
