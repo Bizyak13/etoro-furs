@@ -2190,6 +2190,14 @@
             "taxNumber": 24256790,
             "address": "Novo Alle 1, Bagsvaerd 2880, Denmark",
             "country": "DK"
+        },
+        {
+            "conid": 199169591,
+            "symbol": "PYPL",
+            "name": "PayPal Holdings Inc",
+            "taxNumber": 472989869,
+            "address": "2211 N 1st St, San Jose, CA 95131, US",
+            "country": "US"
         }
     ]
 }

@@ -156,7 +156,7 @@ def parse_args() -> list:
 
 
 def get_conversion_rate_file() -> dict:
-    if not os.path.exists(CURRENCY_FILE) or not get_file_validity(CURRENCY_FILE, 2):
+    if not os.path.exists(CURRENCY_FILE) or get_file_validity(CURRENCY_FILE, 2):
         response = requests.get(bsi_rate_url, headers=headers)
         if response.status_code == 200:
             print("etoro-furs: XML file downloaded successfully.")
@@ -231,7 +231,7 @@ def parse_input_file(rates) -> dict:
                     exit(1)
 
             net_col = 3
-            tax_col = 6
+            tax_col = 10
             if j == net_col:
                 if date.strftime('%Y%m%d') in rates:
                     rate = float(rates[date.strftime('%Y%m%d')][activity.cell(row=i, column=3).value.split('/')[1]])
