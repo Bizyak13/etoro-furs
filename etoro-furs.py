@@ -208,6 +208,7 @@ def parse_input_file(rates) -> dict:
     for i in range(2, max_row+1):
         rate = 0
         data_row = {}
+        curr = activity.cell(row=i, column=3).value.split('/')[1]
         date = datetime.strptime(dividends.cell(row=i, column=1).value, DF_ETORO)
         # get price data for every row, based on the date
         for j in range(1, max_col + 1):
@@ -233,31 +234,40 @@ def parse_input_file(rates) -> dict:
             net_col = 3
             tax_col = 10
             if j == net_col:
-                if date.strftime('%Y%m%d') in rates:
-                    rate = float(rates[date.strftime('%Y%m%d')][activity.cell(row=i, column=3).value.split('/')[1]])
-                else:
-                    for k in range(1, 10):
-                        last_working = (date - timedelta(days=k)).strftime('%Y%m%d')
-                        if last_working in rates:
-                            rate = float(rates[last_working][data_row['Currency']])
-                            data_row['Conversion rate date'] = (date - timedelta(days=k)).strftime(DF_XML)
-                            break
-                    if rate == 0:
-                        raise SystemExit('ERROR: No exchange rate found for this date')
-                data_row[f'Conversion rate (EUR/{data_row["Currency"]})'] = rate
-                gross_script = (dividends.cell(row=i, column=net_col).value/rate + dividends.cell(row=i, column=tax_col).value/rate)
-                gross_etoro = (dividends.cell(row=i, column=net_col+1).value + dividends.cell(row=i, column=tax_col+1).value)
-                
-                if args.verbose:
-                    print(f'Scrpt € | net: {dividends.cell(row=i, column=net_col).value/rate:.4f},\ttax: {dividends.cell(row=i, column=tax_col).value/rate:.4f},\tgross: {gross_script:.4f}\trate: {rate:.4f}')
-                    print(f'Etoro € | net: {dividends.cell(row=i, column=net_col+1).value:.4f},\ttax: {dividends.cell(row=i, column=tax_col+1).value:.4f},\tgross: {gross_etoro:.4f}\trate: {(dividends.cell(row=i, column=tax_col).value/dividends.cell(row=i, column=tax_col+1).value):.4f}')
-                    print(f'================================================================')
-                
-                data_row['Gross Dividend Received (EUR) script'] = get_rounded_float(gross_script)
-                data_row['Gross Dividend Received (EUR) etoro'] = get_rounded_float(gross_etoro)
+                if curr == 'USD':
+                    if date.strftime('%Y%m%d') in rates:
+                            rate = float(rates[date.strftime('%Y%m%d')][activity.cell(row=i, column=3).value.split('/')[1]])
+                    else:
+                        for k in range(1, 10):
+                            last_working = (date - timedelta(days=k)).strftime('%Y%m%d')
+                            if last_working in rates:
+                                rate = float(rates[last_working][data_row['Currency']])
+                                data_row['Conversion rate date'] = (date - timedelta(days=k)).strftime(DF_XML)
+                                break
+                        if rate == 0:
+                            raise SystemExit('ERROR: No exchange rate found for this date')
+                    data_row[f'Conversion rate (EUR/{data_row["Currency"]})'] = rate
+                    gross_script = (dividends.cell(row=i, column=net_col).value/rate + dividends.cell(row=i, column=tax_col).value/rate)
+                    gross_etoro = (dividends.cell(row=i, column=net_col+5).value + dividends.cell(row=i, column=tax_col+1).value)
+                    
+                    if args.verbose:
+                        print(f'Scrpt € | net: {dividends.cell(row=i, column=net_col).value/rate:.4f},\ttax: {dividends.cell(row=i, column=tax_col).value/rate:.4f},\tgross: {gross_script:.4f}\trate: {rate:.4f}')
+                        print(f'Etoro € | net: {dividends.cell(row=i, column=net_col+1).value:.4f},\ttax: {dividends.cell(row=i, column=tax_col+1).value:.4f},\tgross: {gross_etoro:.4f}\trate: {(dividends.cell(row=i, column=tax_col).value/dividends.cell(row=i, column=tax_col+1).value):.4f}')
+                        print(f'================================================================')
+                    
+                    data_row['Gross Dividend Received (EUR) script'] = get_rounded_float(gross_script)
+                    data_row['Gross Dividend Received (EUR) etoro'] = get_rounded_float(gross_etoro)
+                elif curr == 'EUR':
+                    gross_etoro = (dividends.cell(row=i, column=net_col+5).value + dividends.cell(row=i, column=tax_col+1).value)
+                    
+                    data_row['Gross Dividend Received (EUR) script'] = get_rounded_float(gross_etoro)
+                    data_row['Gross Dividend Received (EUR) etoro'] = get_rounded_float(gross_etoro)
             
             if j == tax_col:
-                data_row['Withholding Tax Amount (EUR) script'] = get_rounded_float(dividends.cell(row=i, column=tax_col).value/rate)
+                if rate != 0:
+                    data_row['Withholding Tax Amount (EUR) script'] = get_rounded_float(dividends.cell(row=i, column=tax_col).value/rate)
+                else:
+                    data_row['Withholding Tax Amount (EUR) script'] = get_rounded_float(dividends.cell(row=i, column=tax_col+1).value)
                 data_row['Withholding Tax Amount (EUR) etoro'] = get_rounded_float(dividends.cell(row=i, column=tax_col+1).value)
         
         data[i-1] = data_row
